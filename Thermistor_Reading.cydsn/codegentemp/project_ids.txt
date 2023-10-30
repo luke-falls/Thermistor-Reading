@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c5f218ac-971f-4239-94c8-1851bd8bb5c6
+C:\Users\Lukef\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|3b16e87e-d897-4609-a9af-8f51fd7bda53
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|5cd97d11-7795-42d4-8f6c-8fa25b89264e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f46787e7-933f-45e8-a84f-bf68fa945897
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3baccdf7-1ff4-4827-b928-45b094f5ffaf
+C:\Users\Lukef\OneDrive\Documents\PSoC Creator\Thermistor_Lab\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj|e9d3f890-4c1d-495d-aea6-dd0dff974276
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|c3515587-32b0-4daf-b377-964ace96431f
