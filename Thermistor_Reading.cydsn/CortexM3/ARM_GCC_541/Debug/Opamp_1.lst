@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
   28:Generated_Source\PSoC5/Opamp_1.c **** *  Initialize component's parameters to the parameters set by user in the 
   29:Generated_Source\PSoC5/Opamp_1.c **** *  customizer of the component placed onto schematic. Usually called in 
   30:Generated_Source\PSoC5/Opamp_1.c **** *  Opamp_1_Start().
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 2
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 2
 
 
   31:Generated_Source\PSoC5/Opamp_1.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
   44              		.loc 1 68 0
   45 0018 1032     		adds	r2, r2, #16
   46 001a 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 3
 
 
   47 001c 43F00803 		orr	r3, r3, #8
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  105:Generated_Source\PSoC5/Opamp_1.c **** * Function Name: Opamp_1_Stop
  106:Generated_Source\PSoC5/Opamp_1.c **** ********************************************************************************
  107:Generated_Source\PSoC5/Opamp_1.c **** *
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 4
 
 
  108:Generated_Source\PSoC5/Opamp_1.c **** * Summary:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
   97              		.cfi_endproc
   98              	.LFE3:
   99              		.size	Opamp_1_Stop, .-Opamp_1_Stop
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 5
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 5
 
 
  100              		.section	.text.Opamp_1_SetPower,"ax",%progbits
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  130              		.cfi_endproc
  131              	.LFE4:
  132              		.size	Opamp_1_SetPower, .-Opamp_1_SetPower
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 6
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 6
 
 
  133              		.section	.text.Opamp_1_Init,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  181              		.loc 1 97 0
  182 000e FFF7FEFF 		bl	Opamp_1_Init
  183              	.LVL3:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 7
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 7
 
 
  184              	.L14:
@@ -391,40 +391,40 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  210 0006 00000000 		.4byte	.Ldebug_abbrev0
  211 000a 04       		.byte	0x4
  212 000b 01       		.uleb128 0x1
- 213 000c 3B000000 		.4byte	.LASF21
+ 213 000c 76000000 		.4byte	.LASF21
  214 0010 0C       		.byte	0xc
- 215 0011 7F010000 		.4byte	.LASF22
- 216 0015 C9000000 		.4byte	.LASF23
+ 215 0011 69010000 		.4byte	.LASF22
+ 216 0015 0E000000 		.4byte	.LASF23
  217 0019 00000000 		.4byte	.Ldebug_ranges0+0
  218 001d 00000000 		.4byte	0
  219 0021 00000000 		.4byte	.Ldebug_line0
  220 0025 02       		.uleb128 0x2
  221 0026 01       		.byte	0x1
  222 0027 06       		.byte	0x6
- 223 0028 C7010000 		.4byte	.LASF0
+ 223 0028 BE010000 		.4byte	.LASF0
  224 002c 02       		.uleb128 0x2
  225 002d 01       		.byte	0x1
  226 002e 08       		.byte	0x8
- 227 002f 6C010000 		.4byte	.LASF1
+ 227 002f 56010000 		.4byte	.LASF1
  228 0033 02       		.uleb128 0x2
  229 0034 02       		.byte	0x2
  230 0035 05       		.byte	0x5
- 231 0036 ED010000 		.4byte	.LASF2
+ 231 0036 E4010000 		.4byte	.LASF2
  232 003a 02       		.uleb128 0x2
  233 003b 02       		.byte	0x2
  234 003c 07       		.byte	0x7
- 235 003d 0E000000 		.4byte	.LASF3
+ 235 003d AB010000 		.4byte	.LASF3
  236 0041 02       		.uleb128 0x2
  237 0042 04       		.byte	0x4
  238 0043 05       		.byte	0x5
- 239 0044 A0010000 		.4byte	.LASF4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 8
+ 239 0044 8A010000 		.4byte	.LASF4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 8
 
 
  240 0048 02       		.uleb128 0x2
  241 0049 04       		.byte	0x4
  242 004a 07       		.byte	0x7
- 243 004b 20010000 		.4byte	.LASF5
+ 243 004b 0A010000 		.4byte	.LASF5
  244 004f 02       		.uleb128 0x2
  245 0050 08       		.byte	0x8
  246 0051 05       		.byte	0x5
@@ -432,7 +432,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  248 0056 02       		.uleb128 0x2
  249 0057 08       		.byte	0x8
  250 0058 07       		.byte	0x7
- 251 0059 32010000 		.4byte	.LASF7
+ 251 0059 1C010000 		.4byte	.LASF7
  252 005d 03       		.uleb128 0x3
  253 005e 04       		.byte	0x4
  254 005f 05       		.byte	0x5
@@ -440,26 +440,26 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  256 0064 02       		.uleb128 0x2
  257 0065 04       		.byte	0x4
  258 0066 07       		.byte	0x7
- 259 0067 21000000 		.4byte	.LASF8
+ 259 0067 5C000000 		.4byte	.LASF8
  260 006b 04       		.uleb128 0x4
- 261 006c C1010000 		.4byte	.LASF12
+ 261 006c 04010000 		.4byte	.LASF12
  262 0070 02       		.byte	0x2
  263 0071 E801     		.2byte	0x1e8
  264 0073 2C000000 		.4byte	0x2c
  265 0077 02       		.uleb128 0x2
  266 0078 04       		.byte	0x4
  267 0079 04       		.byte	0x4
- 268 007a 49010000 		.4byte	.LASF9
+ 268 007a 33010000 		.4byte	.LASF9
  269 007e 02       		.uleb128 0x2
  270 007f 08       		.byte	0x8
  271 0080 04       		.byte	0x4
- 272 0081 A9010000 		.4byte	.LASF10
+ 272 0081 93010000 		.4byte	.LASF10
  273 0085 02       		.uleb128 0x2
  274 0086 01       		.byte	0x1
  275 0087 08       		.byte	0x8
- 276 0088 7A010000 		.4byte	.LASF11
+ 276 0088 64010000 		.4byte	.LASF11
  277 008c 04       		.uleb128 0x4
- 278 008d F7010000 		.4byte	.LASF13
+ 278 008d EE010000 		.4byte	.LASF13
  279 0091 02       		.byte	0x2
  280 0092 9202     		.2byte	0x292
  281 0094 98000000 		.4byte	0x98
@@ -468,24 +468,24 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  284 009d 02       		.uleb128 0x2
  285 009e 08       		.byte	0x8
  286 009f 04       		.byte	0x4
- 287 00a0 D3010000 		.4byte	.LASF14
+ 287 00a0 CA010000 		.4byte	.LASF14
  288 00a4 02       		.uleb128 0x2
  289 00a5 04       		.byte	0x4
  290 00a6 07       		.byte	0x7
- 291 00a7 02020000 		.4byte	.LASF15
+ 291 00a7 F9010000 		.4byte	.LASF15
  292 00ab 06       		.uleb128 0x6
- 293 00ac 0B020000 		.4byte	.LASF16
+ 293 00ac 02020000 		.4byte	.LASF16
  294 00b0 01       		.byte	0x1
  295 00b1 3B       		.byte	0x3b
  296 00b2 00000000 		.4byte	.LFB1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 9
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 9
 
 
  297 00b6 28000000 		.4byte	.LFE1-.LFB1
  298 00ba 01       		.uleb128 0x1
  299 00bb 9C       		.byte	0x9c
  300 00bc 06       		.uleb128 0x6
- 301 00bd 2E000000 		.4byte	.LASF17
+ 301 00bd 69000000 		.4byte	.LASF17
  302 00c1 01       		.byte	0x1
  303 00c2 76       		.byte	0x76
  304 00c3 00000000 		.4byte	.LFB3
@@ -493,7 +493,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  306 00cb 01       		.uleb128 0x1
  307 00cc 9C       		.byte	0x9c
  308 00cd 07       		.uleb128 0x7
- 309 00ce B0010000 		.4byte	.LASF18
+ 309 00ce 9A010000 		.4byte	.LASF18
  310 00d2 01       		.byte	0x1
  311 00d3 95       		.byte	0x95
  312 00d4 00000000 		.4byte	.LFB4
@@ -502,14 +502,14 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  315 00dd 9C       		.byte	0x9c
  316 00de F2000000 		.4byte	0xf2
  317 00e2 08       		.uleb128 0x8
- 318 00e3 FC010000 		.4byte	.LASF24
+ 318 00e3 F3010000 		.4byte	.LASF24
  319 00e7 01       		.byte	0x1
  320 00e8 95       		.byte	0x95
  321 00e9 6B000000 		.4byte	0x6b
  322 00ed 00000000 		.4byte	.LLST0
  323 00f1 00       		.byte	0
  324 00f2 07       		.uleb128 0x7
- 325 00f3 5F010000 		.4byte	.LASF19
+ 325 00f3 49010000 		.4byte	.LASF19
  326 00f7 01       		.byte	0x1
  327 00f8 27       		.byte	0x27
  328 00f9 00000000 		.4byte	.LFB0
@@ -528,7 +528,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  341 0115 00       		.byte	0
  342 0116 00       		.byte	0
  343 0117 07       		.uleb128 0x7
- 344 0118 DF010000 		.4byte	.LASF20
+ 344 0118 D6010000 		.4byte	.LASF20
  345 011c 01       		.byte	0x1
  346 011d 5C       		.byte	0x5c
  347 011e 00000000 		.4byte	.LFB2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  351 0128 3F010000 		.4byte	0x13f
  352 012c 0B       		.uleb128 0xb
  353 012d 12000000 		.4byte	.LVL3
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 10
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 10
 
 
  354 0131 F2000000 		.4byte	0xf2
@@ -547,7 +547,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  357 013a AB000000 		.4byte	0xab
  358 013e 00       		.byte	0
  359 013f 0C       		.uleb128 0xc
- 360 0140 4F010000 		.4byte	.LASF25
+ 360 0140 39010000 		.4byte	.LASF25
  361 0144 01       		.byte	0x1
  362 0145 14       		.byte	0x14
  363 0146 6B000000 		.4byte	0x6b
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  408 0026 08       		.uleb128 0x8
  409 0027 00       		.byte	0
  410 0028 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 11
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 11
 
 
  411 0029 04       		.uleb128 0x4
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  465 0060 27       		.uleb128 0x27
  466 0061 19       		.uleb128 0x19
  467 0062 11       		.uleb128 0x11
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 12
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 12
 
 
  468 0063 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  522 00a1 34       		.uleb128 0x34
  523 00a2 00       		.byte	0
  524 00a3 03       		.uleb128 0x3
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 13
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 13
 
 
  525 00a4 0E       		.uleb128 0xe
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  579 0008 00000000 		.4byte	.LFB3
  580 000c 34000000 		.4byte	.LFE3
  581 0010 00000000 		.4byte	.LFB4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 14
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 14
 
 
  582 0014 1C000000 		.4byte	.LFE4
@@ -800,139 +800,139 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 1
  593      206C6F6E 
  593      6720696E 
  593      7400
- 594              	.LASF3:
- 595 000e 73686F72 		.ascii	"short unsigned int\000"
- 595      7420756E 
- 595      7369676E 
- 595      65642069 
- 595      6E7400
- 596              	.LASF8:
- 597 0021 756E7369 		.ascii	"unsigned int\000"
- 597      676E6564 
- 597      20696E74 
- 597      00
- 598              	.LASF17:
- 599 002e 4F70616D 		.ascii	"Opamp_1_Stop\000"
- 599      705F315F 
- 599      53746F70 
- 599      00
- 600              	.LASF21:
- 601 003b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 601      43313120 
- 601      352E342E 
- 601      31203230 
- 601      31363036 
- 602 006e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 602      20726576 
- 602      6973696F 
- 602      6E203233 
- 602      37373135 
- 603 00a1 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 603      66756E63 
- 603      74696F6E 
- 603      2D736563 
- 603      74696F6E 
- 604              	.LASF23:
- 605 00c9 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\PSoC Creator"
- 605      73657273 
- 605      5C4C756B 
- 605      65665C4F 
- 605      6E654472 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 15
+ 594              	.LASF23:
+ 595 000e 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\Thermistor-R"
+ 595      73657273 
+ 595      5C4C756B 
+ 595      65665C4F 
+ 595      6E654472 
+ 596 003c 65616469 		.ascii	"eading\\Thermistor_Reading.cydsn\000"
+ 596      6E675C54 
+ 596      6865726D 
+ 596      6973746F 
+ 596      725F5265 
+ 597              	.LASF8:
+ 598 005c 756E7369 		.ascii	"unsigned int\000"
+ 598      676E6564 
+ 598      20696E74 
+ 598      00
+ 599              	.LASF17:
+ 600 0069 4F70616D 		.ascii	"Opamp_1_Stop\000"
+ 600      705F315F 
+ 600      53746F70 
+ 600      00
+ 601              	.LASF21:
+ 602 0076 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 602      43313120 
+ 602      352E342E 
+ 602      31203230 
+ 602      31363036 
+ 603 00a9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 603      20726576 
+ 603      6973696F 
+ 603      6E203233 
+ 603      37373135 
+ 604 00dc 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 604      66756E63 
+ 604      74696F6E 
+ 604      2D736563 
+ 604      74696F6E 
+ 605              	.LASF12:
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 15
 
 
- 606 00f7 5C546865 		.ascii	"\\Thermistor_Lab\\Thermistor_Reading.cydsn\000"
- 606      726D6973 
- 606      746F725F 
- 606      4C61625C 
- 606      54686572 
+ 606 0104 75696E74 		.ascii	"uint8\000"
+ 606      3800
  607              	.LASF5:
- 608 0120 6C6F6E67 		.ascii	"long unsigned int\000"
+ 608 010a 6C6F6E67 		.ascii	"long unsigned int\000"
  608      20756E73 
  608      69676E65 
  608      6420696E 
  608      7400
  609              	.LASF7:
- 610 0132 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 610 011c 6C6F6E67 		.ascii	"long long unsigned int\000"
  610      206C6F6E 
  610      6720756E 
  610      7369676E 
  610      65642069 
  611              	.LASF9:
- 612 0149 666C6F61 		.ascii	"float\000"
+ 612 0133 666C6F61 		.ascii	"float\000"
  612      7400
  613              	.LASF25:
- 614 014f 4F70616D 		.ascii	"Opamp_1_initVar\000"
+ 614 0139 4F70616D 		.ascii	"Opamp_1_initVar\000"
  614      705F315F 
  614      696E6974 
  614      56617200 
  615              	.LASF19:
- 616 015f 4F70616D 		.ascii	"Opamp_1_Init\000"
+ 616 0149 4F70616D 		.ascii	"Opamp_1_Init\000"
  616      705F315F 
  616      496E6974 
  616      00
  617              	.LASF1:
- 618 016c 756E7369 		.ascii	"unsigned char\000"
+ 618 0156 756E7369 		.ascii	"unsigned char\000"
  618      676E6564 
  618      20636861 
  618      7200
  619              	.LASF11:
- 620 017a 63686172 		.ascii	"char\000"
+ 620 0164 63686172 		.ascii	"char\000"
  620      00
  621              	.LASF22:
- 622 017f 47656E65 		.ascii	"Generated_Source\\PSoC5\\Opamp_1.c\000"
+ 622 0169 47656E65 		.ascii	"Generated_Source\\PSoC5\\Opamp_1.c\000"
  622      72617465 
  622      645F536F 
  622      75726365 
  622      5C50536F 
  623              	.LASF4:
- 624 01a0 6C6F6E67 		.ascii	"long int\000"
+ 624 018a 6C6F6E67 		.ascii	"long int\000"
  624      20696E74 
  624      00
  625              	.LASF10:
- 626 01a9 646F7562 		.ascii	"double\000"
+ 626 0193 646F7562 		.ascii	"double\000"
  626      6C6500
  627              	.LASF18:
- 628 01b0 4F70616D 		.ascii	"Opamp_1_SetPower\000"
+ 628 019a 4F70616D 		.ascii	"Opamp_1_SetPower\000"
  628      705F315F 
  628      53657450 
  628      6F776572 
  628      00
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccRMU8YK.s 			page 16
+ 629              	.LASF3:
+ 630 01ab 73686F72 		.ascii	"short unsigned int\000"
+ 630      7420756E 
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccSQU1ZH.s 			page 16
 
 
- 629              	.LASF12:
- 630 01c1 75696E74 		.ascii	"uint8\000"
- 630      3800
+ 630      7369676E 
+ 630      65642069 
+ 630      6E7400
  631              	.LASF0:
- 632 01c7 7369676E 		.ascii	"signed char\000"
+ 632 01be 7369676E 		.ascii	"signed char\000"
  632      65642063 
  632      68617200 
  633              	.LASF14:
- 634 01d3 6C6F6E67 		.ascii	"long double\000"
+ 634 01ca 6C6F6E67 		.ascii	"long double\000"
  634      20646F75 
  634      626C6500 
  635              	.LASF20:
- 636 01df 4F70616D 		.ascii	"Opamp_1_Start\000"
+ 636 01d6 4F70616D 		.ascii	"Opamp_1_Start\000"
  636      705F315F 
  636      53746172 
  636      7400
  637              	.LASF2:
- 638 01ed 73686F72 		.ascii	"short int\000"
+ 638 01e4 73686F72 		.ascii	"short int\000"
  638      7420696E 
  638      7400
  639              	.LASF13:
- 640 01f7 72656738 		.ascii	"reg8\000"
+ 640 01ee 72656738 		.ascii	"reg8\000"
  640      00
  641              	.LASF24:
- 642 01fc 706F7765 		.ascii	"power\000"
+ 642 01f3 706F7765 		.ascii	"power\000"
  642      7200
  643              	.LASF15:
- 644 0202 73697A65 		.ascii	"sizetype\000"
+ 644 01f9 73697A65 		.ascii	"sizetype\000"
  644      74797065 
  644      00
  645              	.LASF16:
- 646 020b 4F70616D 		.ascii	"Opamp_1_Enable\000"
+ 646 0202 4F70616D 		.ascii	"Opamp_1_Enable\000"
  646      705F315F 
  646      456E6162 
  646      6C6500

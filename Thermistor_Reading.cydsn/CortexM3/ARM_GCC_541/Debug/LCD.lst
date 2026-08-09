@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
   29:Generated_Source\PSoC5/LCD.c **** uint8 LCD_initVar = 0u;
   30:Generated_Source\PSoC5/LCD.c **** 
   31:Generated_Source\PSoC5/LCD.c **** 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 2
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 2
 
 
   32:Generated_Source\PSoC5/LCD.c **** /*******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
   86:Generated_Source\PSoC5/LCD.c **** *
   87:Generated_Source\PSoC5/LCD.c **** * Summary:
   88:Generated_Source\PSoC5/LCD.c **** *  Turns on the display.
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 3
 
 
   89:Generated_Source\PSoC5/LCD.c **** *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  143:Generated_Source\PSoC5/LCD.c ****         LCD_initVar = 1u;
  144:Generated_Source\PSoC5/LCD.c ****     }
  145:Generated_Source\PSoC5/LCD.c **** 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 4
 
 
  146:Generated_Source\PSoC5/LCD.c ****     /* Turn on the LCD */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  200:Generated_Source\PSoC5/LCD.c ****         case (uint8)0:
  201:Generated_Source\PSoC5/LCD.c ****             LCD_WriteControl(LCD_ROW_0_START + column);
  202:Generated_Source\PSoC5/LCD.c ****             break;
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 5
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 5
 
 
  203:Generated_Source\PSoC5/LCD.c ****         case (uint8) 1:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  257:Generated_Source\PSoC5/LCD.c **** * Parameters:
  258:Generated_Source\PSoC5/LCD.c **** *  character: Character to be written to LCD
  259:Generated_Source\PSoC5/LCD.c **** *
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 6
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 6
 
 
  260:Generated_Source\PSoC5/LCD.c **** * Return:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  314:Generated_Source\PSoC5/LCD.c **** void LCD_WriteControl(uint8 cByte) 
  315:Generated_Source\PSoC5/LCD.c **** {
  316:Generated_Source\PSoC5/LCD.c ****     uint8 nibble;
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 7
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 7
 
 
  317:Generated_Source\PSoC5/LCD.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  371:Generated_Source\PSoC5/LCD.c ****         /* Mask off data pins to clear old values out */
  372:Generated_Source\PSoC5/LCD.c ****         value = LCD_PORT_DM0_REG & ((uint8)(~LCD_DATA_MASK));
  373:Generated_Source\PSoC5/LCD.c ****         /* Load in high Z values for data pins, others unchanged */
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 8
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 8
 
 
  374:Generated_Source\PSoC5/LCD.c ****         LCD_PORT_DM0_REG = value | (LCD_HIGH_Z_DM0 & LCD_DATA_MASK);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  428:Generated_Source\PSoC5/LCD.c ****         {
  429:Generated_Source\PSoC5/LCD.c ****             CyDelayUs(10u);
  430:Generated_Source\PSoC5/LCD.c ****         }
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 9
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 9
 
 
  431:Generated_Source\PSoC5/LCD.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  485:Generated_Source\PSoC5/LCD.c **** *******************************************************************************/
  486:Generated_Source\PSoC5/LCD.c **** static void LCD_WrDatNib(uint8 nibble) 
  487:Generated_Source\PSoC5/LCD.c **** {
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 10
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 10
 
 
  488:Generated_Source\PSoC5/LCD.c ****     /* RS should be low to select data register */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
   37 0002 0C4C     		ldr	r4, .L3
   38 0004 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
   39 0006 03F03F03 		and	r3, r3, #63
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 11
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 11
 
 
   40 000a 2370     		strb	r3, [r4]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
   76              	LCD_WrDatNib:
   77              	.LFB10:
  487:Generated_Source\PSoC5/LCD.c ****     /* RS should be low to select data register */
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 12
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 12
 
 
   78              		.loc 1 487 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  123 003a 03F0DF03 		and	r3, r3, #223
  124 003e 2370     		strb	r3, [r4]
  125 0040 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 13
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 13
 
 
  126              	.L8:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  173              		.loc 1 382 0
  174 0024 0131     		adds	r1, r1, #1
  175 0026 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 14
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 14
 
 
  176              	.LVL11:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  220              	.LVL19:
  415:Generated_Source\PSoC5/LCD.c **** 
  221              		.loc 1 415 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 15
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 15
 
 
  222 006c 04F01004 		and	r4, r4, #16
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  265 00ac 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
  266 00ae 03F0E103 		and	r3, r3, #225
  267 00b2 1370     		strb	r3, [r2]
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 16
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 16
 
 
  458:Generated_Source\PSoC5/LCD.c ****         /* Configure data pins to Strong Drive, others unchanged */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  316 0004 FFF7FEFF 		bl	LCD_IsReady
  317              	.LVL31:
  292:Generated_Source\PSoC5/LCD.c **** 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 17
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 17
 
 
  318              		.loc 1 292 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  365              	.LVL39:
  243:Generated_Source\PSoC5/LCD.c ****     }
  366              		.loc 1 243 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 18
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 18
 
 
  367 0010 0134     		adds	r4, r4, #1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  416              	.LVL44:
  417 0000 10B5     		push	{r4, lr}
  418              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 19
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 19
 
 
  419              		.cfi_offset 4, -8
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  465              		.loc 1 61 0
  466 0014 0320     		movs	r0, #3
  467 0016 FFF7FEFF 		bl	LCD_WrCntrlNib
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 20
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 20
 
 
  468              	.LVL51:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  511 0058 FFF7FEFF 		bl	LCD_WriteControl
  512              	.LVL62:
   74:Generated_Source\PSoC5/LCD.c ****     CyDelay(5u);
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 21
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 21
 
 
  513              		.loc 1 74 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  563              	LCD_Start:
  564              	.LFB2:
  138:Generated_Source\PSoC5/LCD.c ****     /* If not initialized, perform initialization */
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 22
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 22
 
 
  565              		.loc 1 138 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  613 0002 0820     		movs	r0, #8
  614 0004 FFF7FEFF 		bl	LCD_WriteControl
  615              	.LVL68:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 23
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 23
 
 
  172:Generated_Source\PSoC5/LCD.c **** }
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  204:Generated_Source\PSoC5/LCD.c ****             break;
  665              		.loc 1 204 0
  666 0018 A1F14000 		sub	r0, r1, #64
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 24
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 24
 
 
  667              	.LVL73:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  562:Generated_Source\PSoC5/LCD.c ****     *  value: The byte to be printed out as ASCII characters.
  563:Generated_Source\PSoC5/LCD.c ****     *
  564:Generated_Source\PSoC5/LCD.c ****     * Return:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 25
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 25
 
 
  565:Generated_Source\PSoC5/LCD.c ****     *  None.
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  579:Generated_Source\PSoC5/LCD.c ****     ********************************************************************************
  580:Generated_Source\PSoC5/LCD.c ****     *
  581:Generated_Source\PSoC5/LCD.c ****     * Summary:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 26
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 26
 
 
  582:Generated_Source\PSoC5/LCD.c ****     *  Print a uint16 as four ASCII characters.
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  605:Generated_Source\PSoC5/LCD.c ****     * Parameters:
  606:Generated_Source\PSoC5/LCD.c ****     *  value: The uint32 to be printed out as ASCII characters.
  607:Generated_Source\PSoC5/LCD.c ****     *
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 27
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 27
 
 
  608:Generated_Source\PSoC5/LCD.c ****     * Return:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  809 001a 38BD     		pop	{r3, r4, r5, pc}
  810              		.cfi_endproc
  811              	.LFE14:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 28
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 28
 
 
  812              		.size	LCD_PrintInt32, .-LCD_PrintInt32
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  829              		.cfi_offset 14, -4
  830 0002 84B0     		sub	sp, sp, #16
  831              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 29
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 29
 
 
  832              	.LVL96:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  862 002e 013A     		subs	r2, r2, #1
  863              	.LVL101:
  864 0030 D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 30
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 30
 
 
  865              	.LVL102:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  907              		.set	.LANCHOR1,. + 0
  908              		.type	LCD_hex.5038, %object
  909              		.size	LCD_hex.5038, 16
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 31
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 31
 
 
  910              	LCD_hex.5038:
@@ -1829,8 +1829,8 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  932 000b 01       		.uleb128 0x1
  933 000c C4000000 		.4byte	.LASF54
  934 0010 0C       		.byte	0xc
- 935 0011 78020000 		.4byte	.LASF55
- 936 0015 85010000 		.4byte	.LASF56
+ 935 0011 6F020000 		.4byte	.LASF55
+ 936 0015 57010000 		.4byte	.LASF56
  937 0019 00000000 		.4byte	.Ldebug_ranges0+0
  938 001d 00000000 		.4byte	0
  939 0021 00000000 		.4byte	.Ldebug_line0
@@ -1841,30 +1841,30 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  944 002c 03       		.uleb128 0x3
  945 002d 04       		.byte	0x4
  946 002e 07       		.byte	0x7
- 947 002f 1A020000 		.4byte	.LASF0
+ 947 002f 11020000 		.4byte	.LASF0
  948 0033 03       		.uleb128 0x3
  949 0034 08       		.byte	0x8
  950 0035 05       		.byte	0x5
- 951 0036 AB020000 		.4byte	.LASF1
+ 951 0036 A2020000 		.4byte	.LASF1
  952 003a 03       		.uleb128 0x3
  953 003b 08       		.byte	0x8
  954 003c 04       		.byte	0x4
- 955 003d 0D030000 		.4byte	.LASF2
+ 955 003d 04030000 		.4byte	.LASF2
  956 0041 03       		.uleb128 0x3
  957 0042 01       		.byte	0x1
  958 0043 06       		.byte	0x6
- 959 0044 19030000 		.4byte	.LASF3
+ 959 0044 10030000 		.4byte	.LASF3
  960 0048 03       		.uleb128 0x3
  961 0049 01       		.byte	0x1
  962 004a 08       		.byte	0x8
  963 004b B6000000 		.4byte	.LASF4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 32
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 32
 
 
  964 004f 03       		.uleb128 0x3
  965 0050 02       		.byte	0x2
  966 0051 05       		.byte	0x5
- 967 0052 ED020000 		.4byte	.LASF5
+ 967 0052 E4020000 		.4byte	.LASF5
  968 0056 03       		.uleb128 0x3
  969 0057 02       		.byte	0x2
  970 0058 07       		.byte	0x7
@@ -1872,35 +1872,35 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  972 005d 03       		.uleb128 0x3
  973 005e 04       		.byte	0x4
  974 005f 05       		.byte	0x5
- 975 0060 FF020000 		.4byte	.LASF7
+ 975 0060 F6020000 		.4byte	.LASF7
  976 0064 03       		.uleb128 0x3
  977 0065 04       		.byte	0x4
  978 0066 07       		.byte	0x7
- 979 0067 57010000 		.4byte	.LASF8
+ 979 0067 A5010000 		.4byte	.LASF8
  980 006b 03       		.uleb128 0x3
  981 006c 08       		.byte	0x8
  982 006d 07       		.byte	0x7
- 983 006e 27020000 		.4byte	.LASF9
+ 983 006e 1E020000 		.4byte	.LASF9
  984 0072 03       		.uleb128 0x3
  985 0073 04       		.byte	0x4
  986 0074 07       		.byte	0x7
- 987 0075 9C020000 		.4byte	.LASF10
+ 987 0075 93020000 		.4byte	.LASF10
  988 0079 03       		.uleb128 0x3
  989 007a 01       		.byte	0x1
  990 007b 08       		.byte	0x8
- 991 007c 08030000 		.4byte	.LASF11
+ 991 007c FF020000 		.4byte	.LASF11
  992 0080 04       		.uleb128 0x4
- 993 0081 69010000 		.4byte	.LASF12
+ 993 0081 B7010000 		.4byte	.LASF12
  994 0085 02       		.byte	0x2
  995 0086 E801     		.2byte	0x1e8
  996 0088 48000000 		.4byte	0x48
  997 008c 04       		.uleb128 0x4
- 998 008d F7010000 		.4byte	.LASF13
+ 998 008d EE010000 		.4byte	.LASF13
  999 0091 02       		.byte	0x2
  1000 0092 E901     		.2byte	0x1e9
  1001 0094 56000000 		.4byte	0x56
  1002 0098 04       		.uleb128 0x4
- 1003 0099 0A020000 		.4byte	.LASF14
+ 1003 0099 01020000 		.4byte	.LASF14
  1004 009d 02       		.byte	0x2
  1005 009e EA01     		.2byte	0x1ea
  1006 00a0 64000000 		.4byte	0x64
@@ -1911,14 +1911,14 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1011 00ab 03       		.uleb128 0x3
  1012 00ac 08       		.byte	0x8
  1013 00ad 04       		.byte	0x4
- 1014 00ae 7E010000 		.4byte	.LASF16
+ 1014 00ae CC010000 		.4byte	.LASF16
  1015 00b2 04       		.uleb128 0x4
- 1016 00b3 A5020000 		.4byte	.LASF17
+ 1016 00b3 9C020000 		.4byte	.LASF17
  1017 00b7 02       		.byte	0x2
  1018 00b8 F901     		.2byte	0x1f9
  1019 00ba 79000000 		.4byte	0x79
  1020 00be 04       		.uleb128 0x4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 33
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 33
 
 
  1021 00bf 52010000 		.4byte	.LASF18
@@ -1928,7 +1928,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1025 00ca 05       		.uleb128 0x5
  1026 00cb 80000000 		.4byte	0x80
  1027 00cf 06       		.uleb128 0x6
- 1028 00d0 6F010000 		.4byte	.LASF19
+ 1028 00d0 BD010000 		.4byte	.LASF19
  1029 00d4 01       		.byte	0x1
  1030 00d5 1002     		.2byte	0x210
  1031 00d7 00000000 		.4byte	.LFB11
@@ -1937,7 +1937,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1034 00e0 9C       		.byte	0x9c
  1035 00e1 05010000 		.4byte	0x105
  1036 00e5 07       		.uleb128 0x7
- 1037 00e6 39030000 		.4byte	.LASF21
+ 1037 00e6 30030000 		.4byte	.LASF21
  1038 00ea 01       		.byte	0x1
  1039 00eb 1002     		.2byte	0x210
  1040 00ed 80000000 		.4byte	0x80
@@ -1962,7 +1962,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1059 0116 9C       		.byte	0x9c
  1060 0117 4E010000 		.4byte	0x14e
  1061 011b 07       		.uleb128 0x7
- 1062 011c 39030000 		.4byte	.LASF21
+ 1062 011c 30030000 		.4byte	.LASF21
  1063 0120 01       		.byte	0x1
  1064 0121 E601     		.2byte	0x1e6
  1065 0123 80000000 		.4byte	0x80
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1075 013c 30       		.byte	0x30
  1076 013d 00       		.byte	0
  1077 013e 08       		.uleb128 0x8
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 34
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 34
 
 
  1078 013f 38000000 		.4byte	.LVL6
@@ -1991,7 +1991,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1085 014c 00       		.byte	0
  1086 014d 00       		.byte	0
  1087 014e 0B       		.uleb128 0xb
- 1088 014f FE010000 		.4byte	.LASF24
+ 1088 014f F5010000 		.4byte	.LASF24
  1089 0153 01       		.byte	0x1
  1090 0154 5C01     		.2byte	0x15c
  1091 0156 00000000 		.4byte	.LFB9
@@ -2006,7 +2006,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1100 016c 80000000 		.4byte	0x80
  1101 0170 42000000 		.4byte	.LLST2
  1102 0174 0C       		.uleb128 0xc
- 1103 0175 C3020000 		.4byte	.LASF23
+ 1103 0175 BA020000 		.4byte	.LASF23
  1104 0179 01       		.byte	0x1
  1105 017a 5F01     		.2byte	0x15f
  1106 017c 98000000 		.4byte	0x98
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1132 01b7 09       		.uleb128 0x9
  1133 01b8 01       		.uleb128 0x1
  1134 01b9 50       		.byte	0x50
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 35
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 35
 
 
  1135 01ba 01       		.uleb128 0x1
@@ -2074,13 +2074,13 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1165 01f1 9C       		.byte	0x9c
  1166 01f2 48020000 		.4byte	0x248
  1167 01f6 07       		.uleb128 0x7
- 1168 01f7 25030000 		.4byte	.LASF26
+ 1168 01f7 1C030000 		.4byte	.LASF26
  1169 01fb 01       		.byte	0x1
  1170 01fc 1C01     		.2byte	0x11c
  1171 01fe 80000000 		.4byte	0x80
  1172 0202 D0000000 		.4byte	.LLST4
  1173 0206 0C       		.uleb128 0xc
- 1174 0207 39030000 		.4byte	.LASF21
+ 1174 0207 30030000 		.4byte	.LASF21
  1175 020b 01       		.byte	0x1
  1176 020c 1E01     		.2byte	0x11e
  1177 020e 80000000 		.4byte	0x80
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1189 022f 04       		.uleb128 0x4
  1190 0230 74       		.byte	0x74
  1191 0231 00       		.sleb128 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 36
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 36
 
 
  1192 0232 34       		.byte	0x34
@@ -2118,7 +2118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1206 0246 00       		.byte	0
  1207 0247 00       		.byte	0
  1208 0248 0E       		.uleb128 0xe
- 1209 0249 E7010000 		.4byte	.LASF27
+ 1209 0249 DE010000 		.4byte	.LASF27
  1210 024d 01       		.byte	0x1
  1211 024e E9       		.byte	0xe9
  1212 024f 00000000 		.4byte	.LFB5
@@ -2139,7 +2139,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1227 0273 80000000 		.4byte	0x80
  1228 0277 35010000 		.4byte	.LLST7
  1229 027b 10       		.uleb128 0x10
- 1230 027c F7020000 		.4byte	.LASF30
+ 1230 027c EE020000 		.4byte	.LASF30
  1231 0280 01       		.byte	0x1
  1232 0281 EC       		.byte	0xec
  1233 0282 B2000000 		.4byte	0xb2
@@ -2154,11 +2154,11 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1242 029a 12       		.uleb128 0x12
  1243 029b B2000000 		.4byte	0xb2
  1244 029f 0B       		.uleb128 0xb
- 1245 02a0 6C020000 		.4byte	.LASF31
+ 1245 02a0 63020000 		.4byte	.LASF31
  1246 02a4 01       		.byte	0x1
  1247 02a5 0801     		.2byte	0x108
  1248 02a7 00000000 		.4byte	.LFB6
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 37
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 37
 
 
  1249 02ab 08000000 		.4byte	.LFE6-.LFB6
@@ -2185,13 +2185,13 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1270 02e0 9C       		.byte	0x9c
  1271 02e1 37030000 		.4byte	0x337
  1272 02e5 07       		.uleb128 0x7
- 1273 02e6 33030000 		.4byte	.LASF34
+ 1273 02e6 2A030000 		.4byte	.LASF34
  1274 02ea 01       		.byte	0x1
  1275 02eb 3A01     		.2byte	0x13a
  1276 02ed 80000000 		.4byte	0x80
  1277 02f1 9E010000 		.4byte	.LLST10
  1278 02f5 0C       		.uleb128 0xc
- 1279 02f6 39030000 		.4byte	.LASF21
+ 1279 02f6 30030000 		.4byte	.LASF21
  1280 02fa 01       		.byte	0x1
  1281 02fb 3C01     		.2byte	0x13c
  1282 02fd 80000000 		.4byte	0x80
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1303 032d 09       		.uleb128 0x9
  1304 032e 01       		.uleb128 0x1
  1305 032f 50       		.byte	0x50
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 38
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 38
 
 
  1306 0330 04       		.uleb128 0x4
@@ -2229,7 +2229,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1311 0335 00       		.byte	0
  1312 0336 00       		.byte	0
  1313 0337 0E       		.uleb128 0xe
- 1314 0338 DB020000 		.4byte	.LASF35
+ 1314 0338 D2020000 		.4byte	.LASF35
  1315 033c 01       		.byte	0x1
  1316 033d 37       		.byte	0x37
  1317 033e 00000000 		.4byte	.LFB0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1360 0396 01       		.uleb128 0x1
  1361 0397 33       		.byte	0x33
  1362 0398 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 39
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 39
 
 
  1363 0399 0A       		.uleb128 0xa
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1417 0405 09       		.uleb128 0x9
  1418 0406 01       		.uleb128 0x1
  1419 0407 50       		.byte	0x50
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 40
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 40
 
 
  1420 0408 01       		.uleb128 0x1
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1474 046b 0A       		.uleb128 0xa
  1475 046c 62000000 		.4byte	.LVL63
  1476 0470 CF020000 		.4byte	0x2cf
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 41
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 41
 
 
  1477 0474 7E040000 		.4byte	0x47e
@@ -2419,7 +2419,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1492 048c 00       		.byte	0
  1493 048d 00       		.byte	0
  1494 048e 0E       		.uleb128 0xe
- 1495 048f DC010000 		.4byte	.LASF36
+ 1495 048f D3010000 		.4byte	.LASF36
  1496 0493 01       		.byte	0x1
  1497 0494 68       		.byte	0x68
  1498 0495 00000000 		.4byte	.LFB1
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1531 04e0 01       		.byte	0x1
  1532 04e1 A8       		.byte	0xa8
  1533 04e2 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 42
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 42
 
 
  1534 04e6 14000000 		.4byte	.LFE3-.LFB3
@@ -2476,7 +2476,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1546 04fe 00       		.byte	0
  1547 04ff 00       		.byte	0
  1548 0500 0E       		.uleb128 0xe
- 1549 0501 4C020000 		.4byte	.LASF39
+ 1549 0501 43020000 		.4byte	.LASF39
  1550 0505 01       		.byte	0x1
  1551 0506 C4       		.byte	0xc4
  1552 0507 00000000 		.4byte	.LFB4
@@ -2510,7 +2510,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1580 0553 CF020000 		.4byte	0x2cf
  1581 0557 00       		.byte	0
  1582 0558 0B       		.uleb128 0xb
- 1583 0559 3E020000 		.4byte	.LASF41
+ 1583 0559 35020000 		.4byte	.LASF41
  1584 055d 01       		.byte	0x1
  1585 055e 3802     		.2byte	0x238
  1586 0560 00000000 		.4byte	.LFB12
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1588 0568 01       		.uleb128 0x1
  1589 0569 9C       		.byte	0x9c
  1590 056a C1050000 		.4byte	0x5c1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 43
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 43
 
 
  1591 056e 07       		.uleb128 0x7
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1645 05d0 00       		.byte	0
  1646 05d1 12       		.uleb128 0x12
  1647 05d2 C1050000 		.4byte	0x5c1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 44
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 44
 
 
  1648 05d6 0B       		.uleb128 0xb
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1702 0649 0C       		.uleb128 0xc
  1703 064a 00000000 		.4byte	.LASF45
  1704 064e 01       		.byte	0x1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 45
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 45
 
 
  1705 064f 6602     		.2byte	0x266
@@ -2659,7 +2659,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1720 066b 00       		.byte	0
  1721 066c 00       		.byte	0
  1722 066d 0B       		.uleb128 0xb
- 1723 066e 59020000 		.4byte	.LASF46
+ 1723 066e 50020000 		.4byte	.LASF46
  1724 0672 01       		.byte	0x1
  1725 0673 9602     		.2byte	0x296
  1726 0675 00000000 		.4byte	.LFB15
@@ -2674,13 +2674,13 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1735 068b 98000000 		.4byte	0x98
  1736 068f 48030000 		.4byte	.LLST18
  1737 0693 0C       		.uleb128 0xc
- 1738 0694 E4020000 		.4byte	.LASF47
+ 1738 0694 DB020000 		.4byte	.LASF47
  1739 0698 01       		.byte	0x1
  1740 0699 9802     		.2byte	0x298
  1741 069b 80000000 		.4byte	0x80
  1742 069f 66030000 		.4byte	.LLST19
  1743 06a3 14       		.uleb128 0x14
- 1744 06a4 95020000 		.4byte	.LASF48
+ 1744 06a4 8C020000 		.4byte	.LASF48
  1745 06a8 01       		.byte	0x1
  1746 06a9 9902     		.2byte	0x299
  1747 06ab CC060000 		.4byte	0x6cc
@@ -2688,7 +2688,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1749 06b0 91       		.byte	0x91
  1750 06b1 6C       		.sleb128 -20
  1751 06b2 0C       		.uleb128 0xc
- 1752 06b3 11020000 		.4byte	.LASF49
+ 1752 06b3 08020000 		.4byte	.LASF49
  1753 06b7 01       		.byte	0x1
  1754 06b8 9A02     		.2byte	0x29a
  1755 06ba 80000000 		.4byte	0x80
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1759 06c7 48020000 		.4byte	0x248
  1760 06cb 00       		.byte	0
  1761 06cc 15       		.uleb128 0x15
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 46
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 46
 
 
  1762 06cd B2000000 		.4byte	0xb2
@@ -2716,7 +2716,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1774 06e8 03       		.byte	0x3
  1775 06e9 00000000 		.4byte	LCD_initVar
  1776 06ed 17       		.uleb128 0x17
- 1777 06ee CB020000 		.4byte	.LASF51
+ 1777 06ee C2020000 		.4byte	.LASF51
  1778 06f2 01       		.byte	0x1
  1779 06f3 1B       		.byte	0x1b
  1780 06f4 80000000 		.4byte	0x80
@@ -2724,13 +2724,13 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1782 06f9 03       		.byte	0x3
  1783 06fa 00000000 		.4byte	LCD_enableState
  1784 06fe 18       		.uleb128 0x18
- 1785 06ff B9020000 		.4byte	.LASF52
- 1786 0703 B9020000 		.4byte	.LASF52
+ 1785 06ff B0020000 		.4byte	.LASF52
+ 1786 0703 B0020000 		.4byte	.LASF52
  1787 0707 03       		.byte	0x3
  1788 0708 77       		.byte	0x77
  1789 0709 18       		.uleb128 0x18
- 1790 070a 2B030000 		.4byte	.LASF53
- 1791 070e 2B030000 		.4byte	.LASF53
+ 1790 070a 22030000 		.4byte	.LASF53
+ 1791 070e 22030000 		.4byte	.LASF53
  1792 0712 03       		.byte	0x3
  1793 0713 76       		.byte	0x76
  1794 0714 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1816 0013 02       		.uleb128 0x2
  1817 0014 24       		.uleb128 0x24
  1818 0015 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 47
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 47
 
 
  1819 0016 0B       		.uleb128 0xb
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1873 004c 40       		.uleb128 0x40
  1874 004d 18       		.uleb128 0x18
  1875 004e 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 48
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 48
 
 
  1876 0050 19       		.uleb128 0x19
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1930 008d 03       		.uleb128 0x3
  1931 008e 0E       		.uleb128 0xe
  1932 008f 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 49
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 49
 
 
  1933 0090 0B       		.uleb128 0xb
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  1987 00c9 11       		.uleb128 0x11
  1988 00ca 01       		.uleb128 0x1
  1989 00cb 12       		.uleb128 0x12
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 50
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 50
 
 
  1990 00cc 06       		.uleb128 0x6
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2044 0103 00       		.byte	0
  2045 0104 13       		.uleb128 0x13
  2046 0105 05       		.uleb128 0x5
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 51
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 51
 
 
  2047 0106 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2101 013c 0B       		.uleb128 0xb
  2102 013d 49       		.uleb128 0x49
  2103 013e 13       		.uleb128 0x13
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 52
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 52
 
 
  2104 013f 3F       		.uleb128 0x3f
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2158              	.LLST2:
  2159 0042 14000000 		.4byte	.LVL8
  2160 0046 18000000 		.4byte	.LVL9
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 53
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 53
 
 
  2161 004a 0100     		.2byte	0x1
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2215 00d8 0100     		.2byte	0x1
  2216 00da 50       		.byte	0x50
  2217 00db 07000000 		.4byte	.LVL31-1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 54
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 54
 
 
  2218 00df 18000000 		.4byte	.LFE7
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2272              	.LLST8:
  2273 015f 06000000 		.4byte	.LVL36
  2274 0163 0D000000 		.4byte	.LVL38-1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 55
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 55
 
 
  2275 0167 0100     		.2byte	0x1
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2329 01e1 00000000 		.4byte	0
  2330              	.LLST12:
  2331 01e5 00000000 		.4byte	.LVL69
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 56
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 56
 
 
  2332 01e9 12000000 		.4byte	.LVL70
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2386 0267 01       		.uleb128 0x1
  2387 0268 51       		.byte	0x51
  2388 0269 9F       		.byte	0x9f
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 57
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 57
 
 
  2389 026a 18000000 		.4byte	.LVL72
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2443 02e9 06000000 		.4byte	.LVL86
  2444 02ed 12000000 		.4byte	.LFE13
  2445 02f1 0400     		.2byte	0x4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 58
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 58
 
 
  2446 02f3 F3       		.byte	0xf3
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2500 037c 54000000 		.4byte	.LVL104
  2501 0380 59000000 		.4byte	.LVL106-1
  2502 0384 0200     		.2byte	0x2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 59
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 59
 
 
  2503 0386 71       		.byte	0x71
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2557 0064 14000000 		.4byte	.LFE3-.LFB3
  2558 0068 00000000 		.4byte	.LFB4
  2559 006c 3C000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 60
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 60
 
 
  2560 0070 00000000 		.4byte	.LFB12
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2610 0000 73686966 		.ascii	"shift\000"
  2610      7400
  2611              	.LASF43:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 61
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 61
 
 
  2612 0006 4C43445F 		.ascii	"LCD_PrintInt16\000"
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2638 0098 4C43445F 		.ascii	"LCD_WriteData\000"
  2638      57726974 
  2638      65446174 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 62
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 62
 
 
  2638      6100
@@ -3693,170 +3693,170 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 1
  2649              	.LASF18:
  2650 0152 72656738 		.ascii	"reg8\000"
  2650      00
- 2651              	.LASF8:
- 2652 0157 6C6F6E67 		.ascii	"long unsigned int\000"
- 2652      20756E73 
- 2652      69676E65 
- 2652      6420696E 
- 2652      7400
- 2653              	.LASF12:
- 2654 0169 75696E74 		.ascii	"uint8\000"
- 2654      3800
- 2655              	.LASF19:
- 2656 016f 4C43445F 		.ascii	"LCD_WrCntrlNib\000"
- 2656      5772436E 
- 2656      74726C4E 
- 2656      696200
- 2657              	.LASF16:
- 2658 017e 646F7562 		.ascii	"double\000"
- 2658      6C6500
- 2659              	.LASF56:
- 2660 0185 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\PSoC Creator"
- 2660      73657273 
- 2660      5C4C756B 
- 2660      65665C4F 
- 2660      6E654472 
- 2661 01b3 5C546865 		.ascii	"\\Thermistor_Lab\\Thermistor_Reading.cydsn\000"
- 2661      726D6973 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 63
+ 2651              	.LASF56:
+ 2652 0157 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\Thermistor-R"
+ 2652      73657273 
+ 2652      5C4C756B 
+ 2652      65665C4F 
+ 2652      6E654472 
+ 2653 0185 65616469 		.ascii	"eading\\Thermistor_Reading.cydsn\000"
+ 2653      6E675C54 
+ 2653      6865726D 
+ 2653      6973746F 
+ 2653      725F5265 
+ 2654              	.LASF8:
+ 2655 01a5 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2655      20756E73 
+ 2655      69676E65 
+ 2655      6420696E 
+ 2655      7400
+ 2656              	.LASF12:
+ 2657 01b7 75696E74 		.ascii	"uint8\000"
+ 2657      3800
+ 2658              	.LASF19:
+ 2659 01bd 4C43445F 		.ascii	"LCD_WrCntrlNib\000"
+ 2659      5772436E 
+ 2659      74726C4E 
+ 2659      696200
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 63
 
 
- 2661      746F725F 
- 2661      4C61625C 
- 2661      54686572 
+ 2660              	.LASF16:
+ 2661 01cc 646F7562 		.ascii	"double\000"
+ 2661      6C6500
  2662              	.LASF36:
- 2663 01dc 4C43445F 		.ascii	"LCD_Enable\000"
+ 2663 01d3 4C43445F 		.ascii	"LCD_Enable\000"
  2663      456E6162 
  2663      6C6500
  2664              	.LASF27:
- 2665 01e7 4C43445F 		.ascii	"LCD_PrintString\000"
+ 2665 01de 4C43445F 		.ascii	"LCD_PrintString\000"
  2665      5072696E 
  2665      74537472 
  2665      696E6700 
  2666              	.LASF13:
- 2667 01f7 75696E74 		.ascii	"uint16\000"
+ 2667 01ee 75696E74 		.ascii	"uint16\000"
  2667      313600
  2668              	.LASF24:
- 2669 01fe 4C43445F 		.ascii	"LCD_IsReady\000"
+ 2669 01f5 4C43445F 		.ascii	"LCD_IsReady\000"
  2669      49735265 
  2669      61647900 
  2670              	.LASF14:
- 2671 020a 75696E74 		.ascii	"uint32\000"
+ 2671 0201 75696E74 		.ascii	"uint32\000"
  2671      333200
  2672              	.LASF49:
- 2673 0211 64696749 		.ascii	"digIndex\000"
+ 2673 0208 64696749 		.ascii	"digIndex\000"
  2673      6E646578 
  2673      00
  2674              	.LASF0:
- 2675 021a 756E7369 		.ascii	"unsigned int\000"
+ 2675 0211 756E7369 		.ascii	"unsigned int\000"
  2675      676E6564 
  2675      20696E74 
  2675      00
  2676              	.LASF9:
- 2677 0227 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2677 021e 6C6F6E67 		.ascii	"long long unsigned int\000"
  2677      206C6F6E 
  2677      6720756E 
  2677      7369676E 
  2677      65642069 
  2678              	.LASF41:
- 2679 023e 4C43445F 		.ascii	"LCD_PrintInt8\000"
+ 2679 0235 4C43445F 		.ascii	"LCD_PrintInt8\000"
  2679      5072696E 
  2679      74496E74 
  2679      3800
  2680              	.LASF39:
- 2681 024c 4C43445F 		.ascii	"LCD_Position\000"
+ 2681 0243 4C43445F 		.ascii	"LCD_Position\000"
  2681      506F7369 
  2681      74696F6E 
  2681      00
  2682              	.LASF46:
- 2683 0259 4C43445F 		.ascii	"LCD_PrintU32Number\000"
+ 2683 0250 4C43445F 		.ascii	"LCD_PrintU32Number\000"
  2683      5072696E 
  2683      74553332 
  2683      4E756D62 
  2683      657200
  2684              	.LASF31:
- 2685 026c 4C43445F 		.ascii	"LCD_PutChar\000"
+ 2685 0263 4C43445F 		.ascii	"LCD_PutChar\000"
  2685      50757443 
  2685      68617200 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 64
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 64
 
 
  2686              	.LASF55:
- 2687 0278 47656E65 		.ascii	"Generated_Source\\PSoC5\\LCD.c\000"
+ 2687 026f 47656E65 		.ascii	"Generated_Source\\PSoC5\\LCD.c\000"
  2687      72617465 
  2687      645F536F 
  2687      75726365 
  2687      5C50536F 
  2688              	.LASF48:
- 2689 0295 6E756D62 		.ascii	"number\000"
+ 2689 028c 6E756D62 		.ascii	"number\000"
  2689      657200
  2690              	.LASF10:
- 2691 029c 73697A65 		.ascii	"sizetype\000"
+ 2691 0293 73697A65 		.ascii	"sizetype\000"
  2691      74797065 
  2691      00
  2692              	.LASF17:
- 2693 02a5 63686172 		.ascii	"char8\000"
+ 2693 029c 63686172 		.ascii	"char8\000"
  2693      3800
  2694              	.LASF1:
- 2695 02ab 6C6F6E67 		.ascii	"long long int\000"
+ 2695 02a2 6C6F6E67 		.ascii	"long long int\000"
  2695      206C6F6E 
  2695      6720696E 
  2695      7400
  2696              	.LASF52:
- 2697 02b9 43794465 		.ascii	"CyDelayUs\000"
+ 2697 02b0 43794465 		.ascii	"CyDelayUs\000"
  2697      6C617955 
  2697      7300
  2698              	.LASF23:
- 2699 02c3 74696D65 		.ascii	"timeout\000"
+ 2699 02ba 74696D65 		.ascii	"timeout\000"
  2699      6F757400 
  2700              	.LASF51:
- 2701 02cb 4C43445F 		.ascii	"LCD_enableState\000"
+ 2701 02c2 4C43445F 		.ascii	"LCD_enableState\000"
  2701      656E6162 
  2701      6C655374 
  2701      61746500 
  2702              	.LASF35:
- 2703 02db 4C43445F 		.ascii	"LCD_Init\000"
+ 2703 02d2 4C43445F 		.ascii	"LCD_Init\000"
  2703      496E6974 
  2703      00
  2704              	.LASF47:
- 2705 02e4 746D7044 		.ascii	"tmpDigit\000"
+ 2705 02db 746D7044 		.ascii	"tmpDigit\000"
  2705      69676974 
  2705      00
  2706              	.LASF5:
- 2707 02ed 73686F72 		.ascii	"short int\000"
+ 2707 02e4 73686F72 		.ascii	"short int\000"
  2707      7420696E 
  2707      7400
  2708              	.LASF30:
- 2709 02f7 63757272 		.ascii	"current\000"
+ 2709 02ee 63757272 		.ascii	"current\000"
  2709      656E7400 
  2710              	.LASF7:
- 2711 02ff 6C6F6E67 		.ascii	"long int\000"
+ 2711 02f6 6C6F6E67 		.ascii	"long int\000"
  2711      20696E74 
  2711      00
  2712              	.LASF11:
- 2713 0308 63686172 		.ascii	"char\000"
+ 2713 02ff 63686172 		.ascii	"char\000"
  2713      00
  2714              	.LASF2:
- 2715 030d 6C6F6E67 		.ascii	"long double\000"
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cc5GFXKo.s 			page 65
+ 2715 0304 6C6F6E67 		.ascii	"long double\000"
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccunNa8u.s 			page 65
 
 
  2715      20646F75 
  2715      626C6500 
  2716              	.LASF3:
- 2717 0319 7369676E 		.ascii	"signed char\000"
+ 2717 0310 7369676E 		.ascii	"signed char\000"
  2717      65642063 
  2717      68617200 
  2718              	.LASF26:
- 2719 0325 64427974 		.ascii	"dByte\000"
+ 2719 031c 64427974 		.ascii	"dByte\000"
  2719      6500
  2720              	.LASF53:
- 2721 032b 43794465 		.ascii	"CyDelay\000"
+ 2721 0322 43794465 		.ascii	"CyDelay\000"
  2721      6C617900 
  2722              	.LASF34:
- 2723 0333 63427974 		.ascii	"cByte\000"
+ 2723 032a 63427974 		.ascii	"cByte\000"
  2723      6500
  2724              	.LASF21:
- 2725 0339 6E696262 		.ascii	"nibble\000"
+ 2725 0330 6E696262 		.ascii	"nibble\000"
  2725      6C6500
  2726              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

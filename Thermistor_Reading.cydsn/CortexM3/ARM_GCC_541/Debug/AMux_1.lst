@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
   28:Generated_Source\PSoC5/AMux_1.c **** *
   29:Generated_Source\PSoC5/AMux_1.c **** * Parameters:
   30:Generated_Source\PSoC5/AMux_1.c **** *  void
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 2
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 2
 
 
   31:Generated_Source\PSoC5/AMux_1.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
   60 001a FF22     		movs	r2, #255
   61 001c 014B     		ldr	r3, .L5
   62 001e 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 3
 
 
   63 0020 10BD     		pop	{r4, pc}
@@ -130,14 +130,14 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
   69              		.cfi_endproc
   70              	.LFE0:
   71              		.size	AMux_1_Start, .-AMux_1_Start
-  72              		.section	.text.AMux_1_Connect,"ax",%progbits
+  72              		.section	.text.AMux_1_Disconnect,"ax",%progbits
   73              		.align	2
-  74              		.global	AMux_1_Connect
+  74              		.global	AMux_1_Disconnect
   75              		.thumb
   76              		.thumb_func
-  77              		.type	AMux_1_Connect, %function
-  78              	AMux_1_Connect:
-  79              	.LFB3:
+  77              		.type	AMux_1_Disconnect, %function
+  78              	AMux_1_Disconnect:
+  79              	.LFB2:
   51:Generated_Source\PSoC5/AMux_1.c **** }
   52:Generated_Source\PSoC5/AMux_1.c **** 
   53:Generated_Source\PSoC5/AMux_1.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
   88:Generated_Source\PSoC5/AMux_1.c **** *  channel:  The channel to connect to the common terminal.
   89:Generated_Source\PSoC5/AMux_1.c **** *
   90:Generated_Source\PSoC5/AMux_1.c **** * Return:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 4
 
 
   91:Generated_Source\PSoC5/AMux_1.c **** *  void
@@ -222,85 +222,10 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
  129:Generated_Source\PSoC5/AMux_1.c **** *******************************************************************************/
  130:Generated_Source\PSoC5/AMux_1.c **** void AMux_1_Connect(uint8 channel) 
  131:Generated_Source\PSoC5/AMux_1.c **** {
-  80              		.loc 1 131 0
-  81              		.cfi_startproc
-  82              		@ args = 0, pretend = 0, frame = 0
-  83              		@ frame_needed = 0, uses_anonymous_args = 0
-  84              	.LVL7:
-  85 0000 10B5     		push	{r4, lr}
-  86              		.cfi_def_cfa_offset 8
-  87              		.cfi_offset 4, -8
-  88              		.cfi_offset 14, -4
-  89 0002 0446     		mov	r4, r0
  132:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_CYAMUXSIDE_A_Set(channel);
-  90              		.loc 1 132 0
-  91 0004 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_A_Set
-  92              	.LVL8:
  133:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_CYAMUXSIDE_B_Set(channel);
-  93              		.loc 1 133 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 5
-
-
-  94 0008 2046     		mov	r0, r4
-  95 000a FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_B_Set
-  96              	.LVL9:
-  97 000e 10BD     		pop	{r4, pc}
-  98              		.cfi_endproc
-  99              	.LFE3:
- 100              		.size	AMux_1_Connect, .-AMux_1_Connect
- 101              		.section	.text.AMux_1_Select,"ax",%progbits
- 102              		.align	2
- 103              		.global	AMux_1_Select
- 104              		.thumb
- 105              		.thumb_func
- 106              		.type	AMux_1_Select, %function
- 107              	AMux_1_Select:
- 108              	.LFB1:
-  70:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_DisconnectAll();        /* Disconnect all previous connections */
- 109              		.loc 1 70 0
- 110              		.cfi_startproc
- 111              		@ args = 0, pretend = 0, frame = 0
- 112              		@ frame_needed = 0, uses_anonymous_args = 0
- 113              	.LVL10:
- 114 0000 10B5     		push	{r4, lr}
- 115              		.cfi_def_cfa_offset 8
- 116              		.cfi_offset 4, -8
- 117              		.cfi_offset 14, -4
- 118 0002 0446     		mov	r4, r0
-  71:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_Connect(channel);       /* Make the given selection */
- 119              		.loc 1 71 0
- 120 0004 FFF7FEFF 		bl	AMux_1_Start
- 121              	.LVL11:
-  72:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_lastChannel = channel;  /* Update last channel */
- 122              		.loc 1 72 0
- 123 0008 2046     		mov	r0, r4
- 124 000a FFF7FEFF 		bl	AMux_1_Connect
- 125              	.LVL12:
-  73:Generated_Source\PSoC5/AMux_1.c **** }
- 126              		.loc 1 73 0
- 127 000e 014B     		ldr	r3, .L11
- 128 0010 1C70     		strb	r4, [r3]
- 129 0012 10BD     		pop	{r4, pc}
- 130              	.L12:
- 131              		.align	2
- 132              	.L11:
- 133 0014 00000000 		.word	.LANCHOR0
- 134              		.cfi_endproc
- 135              	.LFE1:
- 136              		.size	AMux_1_Select, .-AMux_1_Select
- 137              		.section	.text.AMux_1_Disconnect,"ax",%progbits
- 138              		.align	2
- 139              		.global	AMux_1_Disconnect
- 140              		.thumb
- 141              		.thumb_func
- 142              		.type	AMux_1_Disconnect, %function
- 143              	AMux_1_Disconnect:
- 144              	.LFB4:
  134:Generated_Source\PSoC5/AMux_1.c **** }
  135:Generated_Source\PSoC5/AMux_1.c **** #endif
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 6
-
-
  136:Generated_Source\PSoC5/AMux_1.c **** 
  137:Generated_Source\PSoC5/AMux_1.c **** /*******************************************************************************
  138:Generated_Source\PSoC5/AMux_1.c **** * Function Name: AMux_1_Disconnect
@@ -313,867 +238,838 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 1
  145:Generated_Source\PSoC5/AMux_1.c **** *  channel:  The channel to disconnect from the common terminal.
  146:Generated_Source\PSoC5/AMux_1.c **** *
  147:Generated_Source\PSoC5/AMux_1.c **** * Return:
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 5
+
+
  148:Generated_Source\PSoC5/AMux_1.c **** *  void
  149:Generated_Source\PSoC5/AMux_1.c **** *
  150:Generated_Source\PSoC5/AMux_1.c **** *******************************************************************************/
  151:Generated_Source\PSoC5/AMux_1.c **** void AMux_1_Disconnect(uint8 channel) 
  152:Generated_Source\PSoC5/AMux_1.c **** {
- 145              		.loc 1 152 0
- 146              		.cfi_startproc
- 147              		@ args = 0, pretend = 0, frame = 0
- 148              		@ frame_needed = 0, uses_anonymous_args = 0
- 149              	.LVL13:
- 150 0000 10B5     		push	{r4, lr}
- 151              		.cfi_def_cfa_offset 8
- 152              		.cfi_offset 4, -8
- 153              		.cfi_offset 14, -4
- 154 0002 0446     		mov	r4, r0
+  80              		.loc 1 152 0
+  81              		.cfi_startproc
+  82              		@ args = 0, pretend = 0, frame = 0
+  83              		@ frame_needed = 0, uses_anonymous_args = 0
+  84              	.LVL7:
+  85 0000 10B5     		push	{r4, lr}
+  86              		.cfi_def_cfa_offset 8
+  87              		.cfi_offset 4, -8
+  88              		.cfi_offset 14, -4
+  89 0002 0446     		mov	r4, r0
  153:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_CYAMUXSIDE_A_Unset(channel);
- 155              		.loc 1 153 0
- 156 0004 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_A_Unset
- 157              	.LVL14:
+  90              		.loc 1 153 0
+  91 0004 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_A_Unset
+  92              	.LVL8:
  154:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_CYAMUXSIDE_B_Unset(channel);
- 158              		.loc 1 154 0
- 159 0008 2046     		mov	r0, r4
- 160 000a FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_B_Unset
- 161              	.LVL15:
- 162 000e 10BD     		pop	{r4, pc}
- 163              		.cfi_endproc
- 164              	.LFE4:
- 165              		.size	AMux_1_Disconnect, .-AMux_1_Disconnect
- 166              		.section	.text.AMux_1_FastSelect,"ax",%progbits
- 167              		.align	2
- 168              		.global	AMux_1_FastSelect
- 169              		.thumb
- 170              		.thumb_func
- 171              		.type	AMux_1_FastSelect, %function
- 172              	AMux_1_FastSelect:
- 173              	.LFB2:
+  93              		.loc 1 154 0
+  94 0008 2046     		mov	r0, r4
+  95 000a FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_B_Unset
+  96              	.LVL9:
+  97 000e 10BD     		pop	{r4, pc}
+  98              		.cfi_endproc
+  99              	.LFE2:
+ 100              		.size	AMux_1_Disconnect, .-AMux_1_Disconnect
+ 101              		.section	.text.AMux_1_FastSelect,"ax",%progbits
+ 102              		.align	2
+ 103              		.global	AMux_1_FastSelect
+ 104              		.thumb
+ 105              		.thumb_func
+ 106              		.type	AMux_1_FastSelect, %function
+ 107              	AMux_1_FastSelect:
+ 108              	.LFB1:
   95:Generated_Source\PSoC5/AMux_1.c ****     /* Disconnect the last valid channel */
- 174              		.loc 1 95 0
- 175              		.cfi_startproc
- 176              		@ args = 0, pretend = 0, frame = 0
- 177              		@ frame_needed = 0, uses_anonymous_args = 0
- 178              	.LVL16:
- 179 0000 10B5     		push	{r4, lr}
- 180              		.cfi_def_cfa_offset 8
- 181              		.cfi_offset 4, -8
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 7
-
-
- 182              		.cfi_offset 14, -4
- 183 0002 0446     		mov	r4, r0
+ 109              		.loc 1 95 0
+ 110              		.cfi_startproc
+ 111              		@ args = 0, pretend = 0, frame = 0
+ 112              		@ frame_needed = 0, uses_anonymous_args = 0
+ 113              	.LVL10:
+ 114 0000 10B5     		push	{r4, lr}
+ 115              		.cfi_def_cfa_offset 8
+ 116              		.cfi_offset 4, -8
+ 117              		.cfi_offset 14, -4
+ 118 0002 0446     		mov	r4, r0
   97:Generated_Source\PSoC5/AMux_1.c ****     {
- 184              		.loc 1 97 0
- 185 0004 074B     		ldr	r3, .L18
- 186 0006 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
- 187              	.LVL17:
- 188 0008 FF28     		cmp	r0, #255
- 189 000a 01D0     		beq	.L16
+ 119              		.loc 1 97 0
+ 120 0004 074B     		ldr	r3, .L12
+ 121 0006 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
+ 122              	.LVL11:
+ 123 0008 FF28     		cmp	r0, #255
+ 124 000a 01D0     		beq	.L10
   99:Generated_Source\PSoC5/AMux_1.c ****     }
- 190              		.loc 1 99 0
- 191 000c FFF7FEFF 		bl	AMux_1_Disconnect
- 192              	.LVL18:
- 193              	.L16:
+ 125              		.loc 1 99 0
+ 126 000c FFF7FEFF 		bl	AMux_1_Disconnect
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 6
+
+
+ 127              	.LVL12:
+ 128              	.L10:
  106:Generated_Source\PSoC5/AMux_1.c ****     AMux_1_CYAMUXSIDE_B_Set(channel);
- 194              		.loc 1 106 0
- 195 0010 2046     		mov	r0, r4
- 196 0012 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_A_Set
- 197              	.LVL19:
+ 129              		.loc 1 106 0
+ 130 0010 2046     		mov	r0, r4
+ 131 0012 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_A_Set
+ 132              	.LVL13:
  107:Generated_Source\PSoC5/AMux_1.c **** #endif
- 198              		.loc 1 107 0
- 199 0016 2046     		mov	r0, r4
- 200 0018 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_B_Set
- 201              	.LVL20:
+ 133              		.loc 1 107 0
+ 134 0016 2046     		mov	r0, r4
+ 135 0018 FFF7FEFF 		bl	AMux_1_CYAMUXSIDE_B_Set
+ 136              	.LVL14:
  111:Generated_Source\PSoC5/AMux_1.c **** }
- 202              		.loc 1 111 0
- 203 001c 014B     		ldr	r3, .L18
- 204 001e 1C70     		strb	r4, [r3]
- 205 0020 10BD     		pop	{r4, pc}
- 206              	.L19:
- 207 0022 00BF     		.align	2
- 208              	.L18:
- 209 0024 00000000 		.word	.LANCHOR0
- 210              		.cfi_endproc
- 211              	.LFE2:
- 212              		.size	AMux_1_FastSelect, .-AMux_1_FastSelect
- 213              		.data
- 214              		.set	.LANCHOR0,. + 0
- 215              		.type	AMux_1_lastChannel, %object
- 216              		.size	AMux_1_lastChannel, 1
- 217              	AMux_1_lastChannel:
- 218 0000 FF       		.byte	-1
- 219              		.text
- 220              	.Letext0:
- 221              		.file 2 "Generated_Source\\PSoC5\\cyfitter_cfg.h"
- 222              		.file 3 "Generated_Source\\PSoC5\\cytypes.h"
- 223              		.section	.debug_info,"",%progbits
- 224              	.Ldebug_info0:
- 225 0000 31020000 		.4byte	0x231
- 226 0004 0400     		.2byte	0x4
- 227 0006 00000000 		.4byte	.Ldebug_abbrev0
- 228 000a 04       		.byte	0x4
- 229 000b 01       		.uleb128 0x1
- 230 000c 97000000 		.4byte	.LASF24
- 231 0010 0C       		.byte	0xc
- 232 0011 17000000 		.4byte	.LASF25
- 233 0015 7B010000 		.4byte	.LASF26
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 8
+ 137              		.loc 1 111 0
+ 138 001c 014B     		ldr	r3, .L12
+ 139 001e 1C70     		strb	r4, [r3]
+ 140 0020 10BD     		pop	{r4, pc}
+ 141              	.L13:
+ 142 0022 00BF     		.align	2
+ 143              	.L12:
+ 144 0024 00000000 		.word	.LANCHOR0
+ 145              		.cfi_endproc
+ 146              	.LFE1:
+ 147              		.size	AMux_1_FastSelect, .-AMux_1_FastSelect
+ 148              		.section	.text.AMux_1_DisconnectAll,"ax",%progbits
+ 149              		.align	2
+ 150              		.global	AMux_1_DisconnectAll
+ 151              		.thumb
+ 152              		.thumb_func
+ 153              		.type	AMux_1_DisconnectAll, %function
+ 154              	AMux_1_DisconnectAll:
+ 155              	.LFB3:
+ 155:Generated_Source\PSoC5/AMux_1.c **** }
+ 156:Generated_Source\PSoC5/AMux_1.c **** #endif
+ 157:Generated_Source\PSoC5/AMux_1.c **** 
+ 158:Generated_Source\PSoC5/AMux_1.c **** #if (AMux_1_ATMOSTONE)
+ 159:Generated_Source\PSoC5/AMux_1.c **** /*******************************************************************************
+ 160:Generated_Source\PSoC5/AMux_1.c **** * Function Name: AMux_1_DisconnectAll
+ 161:Generated_Source\PSoC5/AMux_1.c **** ********************************************************************************
+ 162:Generated_Source\PSoC5/AMux_1.c **** * Summary:
+ 163:Generated_Source\PSoC5/AMux_1.c **** *  This function disconnects all channels.
+ 164:Generated_Source\PSoC5/AMux_1.c **** *
+ 165:Generated_Source\PSoC5/AMux_1.c **** * Parameters:
+ 166:Generated_Source\PSoC5/AMux_1.c **** *  void
+ 167:Generated_Source\PSoC5/AMux_1.c **** *
+ 168:Generated_Source\PSoC5/AMux_1.c **** * Return:
+ 169:Generated_Source\PSoC5/AMux_1.c **** *  void
+ 170:Generated_Source\PSoC5/AMux_1.c **** *
+ 171:Generated_Source\PSoC5/AMux_1.c **** *******************************************************************************/
+ 172:Generated_Source\PSoC5/AMux_1.c **** void AMux_1_DisconnectAll(void) 
+ 173:Generated_Source\PSoC5/AMux_1.c **** {
+ 156              		.loc 1 173 0
+ 157              		.cfi_startproc
+ 158              		@ args = 0, pretend = 0, frame = 0
+ 159              		@ frame_needed = 0, uses_anonymous_args = 0
+ 160 0000 08B5     		push	{r3, lr}
+ 161              		.cfi_def_cfa_offset 8
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 7
 
 
- 234 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 235 001d 00000000 		.4byte	0
- 236 0021 00000000 		.4byte	.Ldebug_line0
- 237 0025 02       		.uleb128 0x2
- 238 0026 01       		.byte	0x1
- 239 0027 06       		.byte	0x6
- 240 0028 54020000 		.4byte	.LASF0
- 241 002c 02       		.uleb128 0x2
- 242 002d 01       		.byte	0x1
- 243 002e 08       		.byte	0x8
- 244 002f 89000000 		.4byte	.LASF1
- 245 0033 02       		.uleb128 0x2
- 246 0034 02       		.byte	0x2
- 247 0035 05       		.byte	0x5
- 248 0036 3B020000 		.4byte	.LASF2
- 249 003a 02       		.uleb128 0x2
- 250 003b 02       		.byte	0x2
- 251 003c 07       		.byte	0x7
- 252 003d 49010000 		.4byte	.LASF3
- 253 0041 02       		.uleb128 0x2
- 254 0042 04       		.byte	0x4
- 255 0043 05       		.byte	0x5
- 256 0044 4B020000 		.4byte	.LASF4
- 257 0048 02       		.uleb128 0x2
- 258 0049 04       		.byte	0x4
- 259 004a 07       		.byte	0x7
- 260 004b 37010000 		.4byte	.LASF5
- 261 004f 02       		.uleb128 0x2
- 262 0050 08       		.byte	0x8
- 263 0051 05       		.byte	0x5
- 264 0052 1A020000 		.4byte	.LASF6
- 265 0056 02       		.uleb128 0x2
- 266 0057 08       		.byte	0x8
- 267 0058 07       		.byte	0x7
- 268 0059 EC010000 		.4byte	.LASF7
- 269 005d 03       		.uleb128 0x3
- 270 005e 04       		.byte	0x4
- 271 005f 05       		.byte	0x5
- 272 0060 696E7400 		.ascii	"int\000"
- 273 0064 02       		.uleb128 0x2
- 274 0065 04       		.byte	0x4
- 275 0066 07       		.byte	0x7
- 276 0067 DF010000 		.4byte	.LASF8
- 277 006b 04       		.uleb128 0x4
- 278 006c 45020000 		.4byte	.LASF27
- 279 0070 03       		.byte	0x3
- 280 0071 E801     		.2byte	0x1e8
- 281 0073 2C000000 		.4byte	0x2c
- 282 0077 02       		.uleb128 0x2
- 283 0078 04       		.byte	0x4
- 284 0079 04       		.byte	0x4
- 285 007a 69000000 		.4byte	.LASF9
- 286 007e 02       		.uleb128 0x2
- 287 007f 08       		.byte	0x8
- 288 0080 04       		.byte	0x4
- 289 0081 74010000 		.4byte	.LASF10
- 290 0085 02       		.uleb128 0x2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 9
+ 162              		.cfi_offset 3, -8
+ 163              		.cfi_offset 14, -4
+ 174:Generated_Source\PSoC5/AMux_1.c ****     if(AMux_1_lastChannel != AMux_1_NULL_CHANNEL) 
+ 164              		.loc 1 174 0
+ 165 0002 054B     		ldr	r3, .L17
+ 166 0004 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
+ 167 0006 FF28     		cmp	r0, #255
+ 168 0008 04D0     		beq	.L14
+ 175:Generated_Source\PSoC5/AMux_1.c ****     {
+ 176:Generated_Source\PSoC5/AMux_1.c ****         AMux_1_Disconnect(AMux_1_lastChannel);
+ 169              		.loc 1 176 0
+ 170 000a FFF7FEFF 		bl	AMux_1_Disconnect
+ 171              	.LVL15:
+ 177:Generated_Source\PSoC5/AMux_1.c ****         AMux_1_lastChannel = AMux_1_NULL_CHANNEL;
+ 172              		.loc 1 177 0
+ 173 000e FF22     		movs	r2, #255
+ 174 0010 014B     		ldr	r3, .L17
+ 175 0012 1A70     		strb	r2, [r3]
+ 176              	.L14:
+ 177 0014 08BD     		pop	{r3, pc}
+ 178              	.L18:
+ 179 0016 00BF     		.align	2
+ 180              	.L17:
+ 181 0018 00000000 		.word	.LANCHOR0
+ 182              		.cfi_endproc
+ 183              	.LFE3:
+ 184              		.size	AMux_1_DisconnectAll, .-AMux_1_DisconnectAll
+ 185              		.data
+ 186              		.set	.LANCHOR0,. + 0
+ 187              		.type	AMux_1_lastChannel, %object
+ 188              		.size	AMux_1_lastChannel, 1
+ 189              	AMux_1_lastChannel:
+ 190 0000 FF       		.byte	-1
+ 191              		.text
+ 192              	.Letext0:
+ 193              		.file 2 "Generated_Source\\PSoC5\\cyfitter_cfg.h"
+ 194              		.file 3 "Generated_Source\\PSoC5\\cytypes.h"
+ 195              		.section	.debug_info,"",%progbits
+ 196              	.Ldebug_info0:
+ 197 0000 C9010000 		.4byte	0x1c9
+ 198 0004 0400     		.2byte	0x4
+ 199 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 200 000a 04       		.byte	0x4
+ 201 000b 01       		.uleb128 0x1
+ 202 000c 9F000000 		.4byte	.LASF23
+ 203 0010 0C       		.byte	0xc
+ 204 0011 08000000 		.4byte	.LASF24
+ 205 0015 B2010000 		.4byte	.LASF25
+ 206 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 207 001d 00000000 		.4byte	0
+ 208 0021 00000000 		.4byte	.Ldebug_line0
+ 209 0025 02       		.uleb128 0x2
+ 210 0026 01       		.byte	0x1
+ 211 0027 06       		.byte	0x6
+ 212 0028 43020000 		.4byte	.LASF0
+ 213 002c 02       		.uleb128 0x2
+ 214 002d 01       		.byte	0x1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 8
 
 
- 291 0086 01       		.byte	0x1
- 292 0087 08       		.byte	0x8
- 293 0088 28020000 		.4byte	.LASF11
- 294 008c 05       		.uleb128 0x5
- 295 008d D2010000 		.4byte	.LASF12
- 296 0091 01       		.byte	0x1
- 297 0092 24       		.byte	0x24
- 298 0093 00000000 		.4byte	.LFB0
- 299 0097 28000000 		.4byte	.LFE0-.LFB0
- 300 009b 01       		.uleb128 0x1
- 301 009c 9C       		.byte	0x9c
- 302 009d D5000000 		.4byte	0xd5
- 303 00a1 06       		.uleb128 0x6
- 304 00a2 15020000 		.4byte	.LASF18
- 305 00a6 01       		.byte	0x1
- 306 00a7 26       		.byte	0x26
- 307 00a8 6B000000 		.4byte	0x6b
- 308 00ac 00000000 		.4byte	.LLST0
- 309 00b0 07       		.uleb128 0x7
- 310 00b1 0C000000 		.4byte	.LVL2
- 311 00b5 08020000 		.4byte	0x208
- 312 00b9 C4000000 		.4byte	0xc4
- 313 00bd 08       		.uleb128 0x8
- 314 00be 01       		.uleb128 0x1
- 315 00bf 50       		.byte	0x50
- 316 00c0 02       		.uleb128 0x2
- 317 00c1 74       		.byte	0x74
- 318 00c2 00       		.sleb128 0
- 319 00c3 00       		.byte	0
- 320 00c4 09       		.uleb128 0x9
- 321 00c5 12000000 		.4byte	.LVL3
- 322 00c9 13020000 		.4byte	0x213
- 323 00cd 08       		.uleb128 0x8
- 324 00ce 01       		.uleb128 0x1
- 325 00cf 50       		.byte	0x50
- 326 00d0 02       		.uleb128 0x2
- 327 00d1 74       		.byte	0x74
- 328 00d2 00       		.sleb128 0
- 329 00d3 00       		.byte	0
- 330 00d4 00       		.byte	0
- 331 00d5 05       		.uleb128 0x5
- 332 00d6 08000000 		.4byte	.LASF13
- 333 00da 01       		.byte	0x1
- 334 00db 82       		.byte	0x82
- 335 00dc 00000000 		.4byte	.LFB3
- 336 00e0 10000000 		.4byte	.LFE3-.LFB3
- 337 00e4 01       		.uleb128 0x1
- 338 00e5 9C       		.byte	0x9c
- 339 00e6 1E010000 		.4byte	0x11e
- 340 00ea 0A       		.uleb128 0xa
- 341 00eb 00000000 		.4byte	.LASF15
- 342 00ef 01       		.byte	0x1
- 343 00f0 82       		.byte	0x82
- 344 00f1 6B000000 		.4byte	0x6b
- 345 00f5 2A000000 		.4byte	.LLST1
- 346 00f9 07       		.uleb128 0x7
- 347 00fa 08000000 		.4byte	.LVL8
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 10
+ 215 002e 08       		.byte	0x8
+ 216 002f 91000000 		.4byte	.LASF1
+ 217 0033 02       		.uleb128 0x2
+ 218 0034 02       		.byte	0x2
+ 219 0035 05       		.byte	0x5
+ 220 0036 2A020000 		.4byte	.LASF2
+ 221 003a 02       		.uleb128 0x2
+ 222 003b 02       		.byte	0x2
+ 223 003c 07       		.byte	0x7
+ 224 003d 51010000 		.4byte	.LASF3
+ 225 0041 02       		.uleb128 0x2
+ 226 0042 04       		.byte	0x4
+ 227 0043 05       		.byte	0x5
+ 228 0044 3A020000 		.4byte	.LASF4
+ 229 0048 02       		.uleb128 0x2
+ 230 0049 04       		.byte	0x4
+ 231 004a 07       		.byte	0x7
+ 232 004b 3F010000 		.4byte	.LASF5
+ 233 004f 02       		.uleb128 0x2
+ 234 0050 08       		.byte	0x8
+ 235 0051 05       		.byte	0x5
+ 236 0052 17020000 		.4byte	.LASF6
+ 237 0056 02       		.uleb128 0x2
+ 238 0057 08       		.byte	0x8
+ 239 0058 07       		.byte	0x7
+ 240 0059 7A000000 		.4byte	.LASF7
+ 241 005d 03       		.uleb128 0x3
+ 242 005e 04       		.byte	0x4
+ 243 005f 05       		.byte	0x5
+ 244 0060 696E7400 		.ascii	"int\000"
+ 245 0064 02       		.uleb128 0x2
+ 246 0065 04       		.byte	0x4
+ 247 0066 07       		.byte	0x7
+ 248 0067 A5010000 		.4byte	.LASF8
+ 249 006b 04       		.uleb128 0x4
+ 250 006c 34020000 		.4byte	.LASF26
+ 251 0070 03       		.byte	0x3
+ 252 0071 E801     		.2byte	0x1e8
+ 253 0073 2C000000 		.4byte	0x2c
+ 254 0077 02       		.uleb128 0x2
+ 255 0078 04       		.byte	0x4
+ 256 0079 04       		.byte	0x4
+ 257 007a 5A000000 		.4byte	.LASF9
+ 258 007e 02       		.uleb128 0x2
+ 259 007f 08       		.byte	0x8
+ 260 0080 04       		.byte	0x4
+ 261 0081 7C010000 		.4byte	.LASF10
+ 262 0085 02       		.uleb128 0x2
+ 263 0086 01       		.byte	0x1
+ 264 0087 08       		.byte	0x8
+ 265 0088 25020000 		.4byte	.LASF11
+ 266 008c 05       		.uleb128 0x5
+ 267 008d 83010000 		.4byte	.LASF12
+ 268 0091 01       		.byte	0x1
+ 269 0092 24       		.byte	0x24
+ 270 0093 00000000 		.4byte	.LFB0
+ 271 0097 28000000 		.4byte	.LFE0-.LFB0
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 9
 
 
- 348 00fe 1E020000 		.4byte	0x21e
- 349 0102 0D010000 		.4byte	0x10d
- 350 0106 08       		.uleb128 0x8
- 351 0107 01       		.uleb128 0x1
- 352 0108 50       		.byte	0x50
- 353 0109 02       		.uleb128 0x2
- 354 010a 74       		.byte	0x74
- 355 010b 00       		.sleb128 0
- 356 010c 00       		.byte	0
- 357 010d 09       		.uleb128 0x9
- 358 010e 0E000000 		.4byte	.LVL9
- 359 0112 29020000 		.4byte	0x229
- 360 0116 08       		.uleb128 0x8
- 361 0117 01       		.uleb128 0x1
- 362 0118 50       		.byte	0x50
- 363 0119 02       		.uleb128 0x2
- 364 011a 74       		.byte	0x74
- 365 011b 00       		.sleb128 0
- 366 011c 00       		.byte	0
- 367 011d 00       		.byte	0
- 368 011e 05       		.uleb128 0x5
- 369 011f 2D020000 		.4byte	.LASF14
- 370 0123 01       		.byte	0x1
- 371 0124 45       		.byte	0x45
- 372 0125 00000000 		.4byte	.LFB1
- 373 0129 18000000 		.4byte	.LFE1-.LFB1
- 374 012d 01       		.uleb128 0x1
- 375 012e 9C       		.byte	0x9c
- 376 012f 5C010000 		.4byte	0x15c
- 377 0133 0A       		.uleb128 0xa
- 378 0134 00000000 		.4byte	.LASF15
- 379 0138 01       		.byte	0x1
- 380 0139 45       		.byte	0x45
- 381 013a 6B000000 		.4byte	0x6b
- 382 013e 4B000000 		.4byte	.LLST2
- 383 0142 0B       		.uleb128 0xb
- 384 0143 08000000 		.4byte	.LVL11
- 385 0147 8C000000 		.4byte	0x8c
- 386 014b 09       		.uleb128 0x9
- 387 014c 0E000000 		.4byte	.LVL12
- 388 0150 D5000000 		.4byte	0xd5
- 389 0154 08       		.uleb128 0x8
- 390 0155 01       		.uleb128 0x1
- 391 0156 50       		.byte	0x50
- 392 0157 02       		.uleb128 0x2
- 393 0158 74       		.byte	0x74
- 394 0159 00       		.sleb128 0
- 395 015a 00       		.byte	0
- 396 015b 00       		.byte	0
- 397 015c 05       		.uleb128 0x5
- 398 015d 03020000 		.4byte	.LASF16
- 399 0161 01       		.byte	0x1
- 400 0162 97       		.byte	0x97
- 401 0163 00000000 		.4byte	.LFB4
- 402 0167 10000000 		.4byte	.LFE4-.LFB4
- 403 016b 01       		.uleb128 0x1
- 404 016c 9C       		.byte	0x9c
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 11
+ 272 009b 01       		.uleb128 0x1
+ 273 009c 9C       		.byte	0x9c
+ 274 009d D5000000 		.4byte	0xd5
+ 275 00a1 06       		.uleb128 0x6
+ 276 00a2 12020000 		.4byte	.LASF17
+ 277 00a6 01       		.byte	0x1
+ 278 00a7 26       		.byte	0x26
+ 279 00a8 6B000000 		.4byte	0x6b
+ 280 00ac 00000000 		.4byte	.LLST0
+ 281 00b0 07       		.uleb128 0x7
+ 282 00b1 0C000000 		.4byte	.LVL2
+ 283 00b5 A0010000 		.4byte	0x1a0
+ 284 00b9 C4000000 		.4byte	0xc4
+ 285 00bd 08       		.uleb128 0x8
+ 286 00be 01       		.uleb128 0x1
+ 287 00bf 50       		.byte	0x50
+ 288 00c0 02       		.uleb128 0x2
+ 289 00c1 74       		.byte	0x74
+ 290 00c2 00       		.sleb128 0
+ 291 00c3 00       		.byte	0
+ 292 00c4 09       		.uleb128 0x9
+ 293 00c5 12000000 		.4byte	.LVL3
+ 294 00c9 AB010000 		.4byte	0x1ab
+ 295 00cd 08       		.uleb128 0x8
+ 296 00ce 01       		.uleb128 0x1
+ 297 00cf 50       		.byte	0x50
+ 298 00d0 02       		.uleb128 0x2
+ 299 00d1 74       		.byte	0x74
+ 300 00d2 00       		.sleb128 0
+ 301 00d3 00       		.byte	0
+ 302 00d4 00       		.byte	0
+ 303 00d5 05       		.uleb128 0x5
+ 304 00d6 00020000 		.4byte	.LASF13
+ 305 00da 01       		.byte	0x1
+ 306 00db 97       		.byte	0x97
+ 307 00dc 00000000 		.4byte	.LFB2
+ 308 00e0 10000000 		.4byte	.LFE2-.LFB2
+ 309 00e4 01       		.uleb128 0x1
+ 310 00e5 9C       		.byte	0x9c
+ 311 00e6 1E010000 		.4byte	0x11e
+ 312 00ea 0A       		.uleb128 0xa
+ 313 00eb 00000000 		.4byte	.LASF15
+ 314 00ef 01       		.byte	0x1
+ 315 00f0 97       		.byte	0x97
+ 316 00f1 6B000000 		.4byte	0x6b
+ 317 00f5 2A000000 		.4byte	.LLST1
+ 318 00f9 07       		.uleb128 0x7
+ 319 00fa 08000000 		.4byte	.LVL8
+ 320 00fe A0010000 		.4byte	0x1a0
+ 321 0102 0D010000 		.4byte	0x10d
+ 322 0106 08       		.uleb128 0x8
+ 323 0107 01       		.uleb128 0x1
+ 324 0108 50       		.byte	0x50
+ 325 0109 02       		.uleb128 0x2
+ 326 010a 74       		.byte	0x74
+ 327 010b 00       		.sleb128 0
+ 328 010c 00       		.byte	0
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 10
 
 
- 405 016d A5010000 		.4byte	0x1a5
- 406 0171 0A       		.uleb128 0xa
- 407 0172 00000000 		.4byte	.LASF15
- 408 0176 01       		.byte	0x1
- 409 0177 97       		.byte	0x97
- 410 0178 6B000000 		.4byte	0x6b
- 411 017c 6C000000 		.4byte	.LLST3
- 412 0180 07       		.uleb128 0x7
- 413 0181 08000000 		.4byte	.LVL14
- 414 0185 08020000 		.4byte	0x208
- 415 0189 94010000 		.4byte	0x194
- 416 018d 08       		.uleb128 0x8
- 417 018e 01       		.uleb128 0x1
- 418 018f 50       		.byte	0x50
- 419 0190 02       		.uleb128 0x2
- 420 0191 74       		.byte	0x74
- 421 0192 00       		.sleb128 0
- 422 0193 00       		.byte	0
- 423 0194 09       		.uleb128 0x9
- 424 0195 0E000000 		.4byte	.LVL15
- 425 0199 13020000 		.4byte	0x213
- 426 019d 08       		.uleb128 0x8
- 427 019e 01       		.uleb128 0x1
- 428 019f 50       		.byte	0x50
- 429 01a0 02       		.uleb128 0x2
- 430 01a1 74       		.byte	0x74
- 431 01a2 00       		.sleb128 0
- 432 01a3 00       		.byte	0
- 433 01a4 00       		.byte	0
- 434 01a5 05       		.uleb128 0x5
- 435 01a6 25010000 		.4byte	.LASF17
- 436 01aa 01       		.byte	0x1
- 437 01ab 5E       		.byte	0x5e
- 438 01ac 00000000 		.4byte	.LFB2
- 439 01b0 28000000 		.4byte	.LFE2-.LFB2
- 440 01b4 01       		.uleb128 0x1
- 441 01b5 9C       		.byte	0x9c
- 442 01b6 F7010000 		.4byte	0x1f7
- 443 01ba 0A       		.uleb128 0xa
- 444 01bb 00000000 		.4byte	.LASF15
- 445 01bf 01       		.byte	0x1
- 446 01c0 5E       		.byte	0x5e
- 447 01c1 6B000000 		.4byte	0x6b
- 448 01c5 8D000000 		.4byte	.LLST4
- 449 01c9 0B       		.uleb128 0xb
- 450 01ca 10000000 		.4byte	.LVL18
- 451 01ce 5C010000 		.4byte	0x15c
- 452 01d2 07       		.uleb128 0x7
- 453 01d3 16000000 		.4byte	.LVL19
- 454 01d7 1E020000 		.4byte	0x21e
- 455 01db E6010000 		.4byte	0x1e6
- 456 01df 08       		.uleb128 0x8
- 457 01e0 01       		.uleb128 0x1
- 458 01e1 50       		.byte	0x50
- 459 01e2 02       		.uleb128 0x2
- 460 01e3 74       		.byte	0x74
- 461 01e4 00       		.sleb128 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 12
+ 329 010d 09       		.uleb128 0x9
+ 330 010e 0E000000 		.4byte	.LVL9
+ 331 0112 AB010000 		.4byte	0x1ab
+ 332 0116 08       		.uleb128 0x8
+ 333 0117 01       		.uleb128 0x1
+ 334 0118 50       		.byte	0x50
+ 335 0119 02       		.uleb128 0x2
+ 336 011a 74       		.byte	0x74
+ 337 011b 00       		.sleb128 0
+ 338 011c 00       		.byte	0
+ 339 011d 00       		.byte	0
+ 340 011e 05       		.uleb128 0x5
+ 341 011f 2D010000 		.4byte	.LASF14
+ 342 0123 01       		.byte	0x1
+ 343 0124 5E       		.byte	0x5e
+ 344 0125 00000000 		.4byte	.LFB1
+ 345 0129 28000000 		.4byte	.LFE1-.LFB1
+ 346 012d 01       		.uleb128 0x1
+ 347 012e 9C       		.byte	0x9c
+ 348 012f 70010000 		.4byte	0x170
+ 349 0133 0A       		.uleb128 0xa
+ 350 0134 00000000 		.4byte	.LASF15
+ 351 0138 01       		.byte	0x1
+ 352 0139 5E       		.byte	0x5e
+ 353 013a 6B000000 		.4byte	0x6b
+ 354 013e 4B000000 		.4byte	.LLST2
+ 355 0142 0B       		.uleb128 0xb
+ 356 0143 10000000 		.4byte	.LVL12
+ 357 0147 D5000000 		.4byte	0xd5
+ 358 014b 07       		.uleb128 0x7
+ 359 014c 16000000 		.4byte	.LVL13
+ 360 0150 B6010000 		.4byte	0x1b6
+ 361 0154 5F010000 		.4byte	0x15f
+ 362 0158 08       		.uleb128 0x8
+ 363 0159 01       		.uleb128 0x1
+ 364 015a 50       		.byte	0x50
+ 365 015b 02       		.uleb128 0x2
+ 366 015c 74       		.byte	0x74
+ 367 015d 00       		.sleb128 0
+ 368 015e 00       		.byte	0
+ 369 015f 09       		.uleb128 0x9
+ 370 0160 1C000000 		.4byte	.LVL14
+ 371 0164 C1010000 		.4byte	0x1c1
+ 372 0168 08       		.uleb128 0x8
+ 373 0169 01       		.uleb128 0x1
+ 374 016a 50       		.byte	0x50
+ 375 016b 02       		.uleb128 0x2
+ 376 016c 74       		.byte	0x74
+ 377 016d 00       		.sleb128 0
+ 378 016e 00       		.byte	0
+ 379 016f 00       		.byte	0
+ 380 0170 05       		.uleb128 0x5
+ 381 0171 90010000 		.4byte	.LASF16
+ 382 0175 01       		.byte	0x1
+ 383 0176 AC       		.byte	0xac
+ 384 0177 00000000 		.4byte	.LFB3
+ 385 017b 1C000000 		.4byte	.LFE3-.LFB3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 11
 
 
- 462 01e5 00       		.byte	0
- 463 01e6 09       		.uleb128 0x9
- 464 01e7 1C000000 		.4byte	.LVL20
- 465 01eb 29020000 		.4byte	0x229
- 466 01ef 08       		.uleb128 0x8
- 467 01f0 01       		.uleb128 0x1
- 468 01f1 50       		.byte	0x50
- 469 01f2 02       		.uleb128 0x2
- 470 01f3 74       		.byte	0x74
- 471 01f4 00       		.sleb128 0
- 472 01f5 00       		.byte	0
- 473 01f6 00       		.byte	0
- 474 01f7 0C       		.uleb128 0xc
- 475 01f8 60020000 		.4byte	.LASF19
- 476 01fc 01       		.byte	0x1
- 477 01fd 14       		.byte	0x14
- 478 01fe 6B000000 		.4byte	0x6b
- 479 0202 05       		.uleb128 0x5
- 480 0203 03       		.byte	0x3
- 481 0204 00000000 		.4byte	AMux_1_lastChannel
- 482 0208 0D       		.uleb128 0xd
- 483 0209 6F000000 		.4byte	.LASF20
- 484 020d 6F000000 		.4byte	.LASF20
- 485 0211 02       		.byte	0x2
- 486 0212 1B       		.byte	0x1b
- 487 0213 0D       		.uleb128 0xd
- 488 0214 37000000 		.4byte	.LASF21
- 489 0218 37000000 		.4byte	.LASF21
- 490 021c 02       		.byte	0x2
- 491 021d 25       		.byte	0x25
- 492 021e 0D       		.uleb128 0xd
- 493 021f 51000000 		.4byte	.LASF22
- 494 0223 51000000 		.4byte	.LASF22
- 495 0227 02       		.byte	0x2
- 496 0228 1A       		.byte	0x1a
- 497 0229 0D       		.uleb128 0xd
- 498 022a 5C010000 		.4byte	.LASF23
- 499 022e 5C010000 		.4byte	.LASF23
- 500 0232 02       		.byte	0x2
- 501 0233 24       		.byte	0x24
- 502 0234 00       		.byte	0
- 503              		.section	.debug_abbrev,"",%progbits
- 504              	.Ldebug_abbrev0:
- 505 0000 01       		.uleb128 0x1
- 506 0001 11       		.uleb128 0x11
- 507 0002 01       		.byte	0x1
- 508 0003 25       		.uleb128 0x25
- 509 0004 0E       		.uleb128 0xe
- 510 0005 13       		.uleb128 0x13
- 511 0006 0B       		.uleb128 0xb
- 512 0007 03       		.uleb128 0x3
- 513 0008 0E       		.uleb128 0xe
- 514 0009 1B       		.uleb128 0x1b
- 515 000a 0E       		.uleb128 0xe
- 516 000b 55       		.uleb128 0x55
- 517 000c 17       		.uleb128 0x17
- 518 000d 11       		.uleb128 0x11
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 13
+ 386 017f 01       		.uleb128 0x1
+ 387 0180 9C       		.byte	0x9c
+ 388 0181 8F010000 		.4byte	0x18f
+ 389 0185 0B       		.uleb128 0xb
+ 390 0186 0E000000 		.4byte	.LVL15
+ 391 018a D5000000 		.4byte	0xd5
+ 392 018e 00       		.byte	0
+ 393 018f 0C       		.uleb128 0xc
+ 394 0190 4F020000 		.4byte	.LASF18
+ 395 0194 01       		.byte	0x1
+ 396 0195 14       		.byte	0x14
+ 397 0196 6B000000 		.4byte	0x6b
+ 398 019a 05       		.uleb128 0x5
+ 399 019b 03       		.byte	0x3
+ 400 019c 00000000 		.4byte	AMux_1_lastChannel
+ 401 01a0 0D       		.uleb128 0xd
+ 402 01a1 60000000 		.4byte	.LASF19
+ 403 01a5 60000000 		.4byte	.LASF19
+ 404 01a9 02       		.byte	0x2
+ 405 01aa 1B       		.byte	0x1b
+ 406 01ab 0D       		.uleb128 0xd
+ 407 01ac 28000000 		.4byte	.LASF20
+ 408 01b0 28000000 		.4byte	.LASF20
+ 409 01b4 02       		.byte	0x2
+ 410 01b5 25       		.byte	0x25
+ 411 01b6 0D       		.uleb128 0xd
+ 412 01b7 42000000 		.4byte	.LASF21
+ 413 01bb 42000000 		.4byte	.LASF21
+ 414 01bf 02       		.byte	0x2
+ 415 01c0 1A       		.byte	0x1a
+ 416 01c1 0D       		.uleb128 0xd
+ 417 01c2 64010000 		.4byte	.LASF22
+ 418 01c6 64010000 		.4byte	.LASF22
+ 419 01ca 02       		.byte	0x2
+ 420 01cb 24       		.byte	0x24
+ 421 01cc 00       		.byte	0
+ 422              		.section	.debug_abbrev,"",%progbits
+ 423              	.Ldebug_abbrev0:
+ 424 0000 01       		.uleb128 0x1
+ 425 0001 11       		.uleb128 0x11
+ 426 0002 01       		.byte	0x1
+ 427 0003 25       		.uleb128 0x25
+ 428 0004 0E       		.uleb128 0xe
+ 429 0005 13       		.uleb128 0x13
+ 430 0006 0B       		.uleb128 0xb
+ 431 0007 03       		.uleb128 0x3
+ 432 0008 0E       		.uleb128 0xe
+ 433 0009 1B       		.uleb128 0x1b
+ 434 000a 0E       		.uleb128 0xe
+ 435 000b 55       		.uleb128 0x55
+ 436 000c 17       		.uleb128 0x17
+ 437 000d 11       		.uleb128 0x11
+ 438 000e 01       		.uleb128 0x1
+ 439 000f 10       		.uleb128 0x10
+ 440 0010 17       		.uleb128 0x17
+ 441 0011 00       		.byte	0
+ 442 0012 00       		.byte	0
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 12
 
 
- 519 000e 01       		.uleb128 0x1
- 520 000f 10       		.uleb128 0x10
- 521 0010 17       		.uleb128 0x17
- 522 0011 00       		.byte	0
- 523 0012 00       		.byte	0
- 524 0013 02       		.uleb128 0x2
- 525 0014 24       		.uleb128 0x24
- 526 0015 00       		.byte	0
- 527 0016 0B       		.uleb128 0xb
- 528 0017 0B       		.uleb128 0xb
- 529 0018 3E       		.uleb128 0x3e
- 530 0019 0B       		.uleb128 0xb
- 531 001a 03       		.uleb128 0x3
- 532 001b 0E       		.uleb128 0xe
- 533 001c 00       		.byte	0
- 534 001d 00       		.byte	0
- 535 001e 03       		.uleb128 0x3
- 536 001f 24       		.uleb128 0x24
- 537 0020 00       		.byte	0
- 538 0021 0B       		.uleb128 0xb
- 539 0022 0B       		.uleb128 0xb
- 540 0023 3E       		.uleb128 0x3e
- 541 0024 0B       		.uleb128 0xb
- 542 0025 03       		.uleb128 0x3
- 543 0026 08       		.uleb128 0x8
- 544 0027 00       		.byte	0
- 545 0028 00       		.byte	0
- 546 0029 04       		.uleb128 0x4
- 547 002a 16       		.uleb128 0x16
- 548 002b 00       		.byte	0
- 549 002c 03       		.uleb128 0x3
- 550 002d 0E       		.uleb128 0xe
- 551 002e 3A       		.uleb128 0x3a
- 552 002f 0B       		.uleb128 0xb
- 553 0030 3B       		.uleb128 0x3b
- 554 0031 05       		.uleb128 0x5
- 555 0032 49       		.uleb128 0x49
- 556 0033 13       		.uleb128 0x13
- 557 0034 00       		.byte	0
- 558 0035 00       		.byte	0
- 559 0036 05       		.uleb128 0x5
- 560 0037 2E       		.uleb128 0x2e
- 561 0038 01       		.byte	0x1
- 562 0039 3F       		.uleb128 0x3f
- 563 003a 19       		.uleb128 0x19
- 564 003b 03       		.uleb128 0x3
- 565 003c 0E       		.uleb128 0xe
- 566 003d 3A       		.uleb128 0x3a
- 567 003e 0B       		.uleb128 0xb
- 568 003f 3B       		.uleb128 0x3b
- 569 0040 0B       		.uleb128 0xb
- 570 0041 27       		.uleb128 0x27
- 571 0042 19       		.uleb128 0x19
- 572 0043 11       		.uleb128 0x11
- 573 0044 01       		.uleb128 0x1
- 574 0045 12       		.uleb128 0x12
- 575 0046 06       		.uleb128 0x6
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 14
+ 443 0013 02       		.uleb128 0x2
+ 444 0014 24       		.uleb128 0x24
+ 445 0015 00       		.byte	0
+ 446 0016 0B       		.uleb128 0xb
+ 447 0017 0B       		.uleb128 0xb
+ 448 0018 3E       		.uleb128 0x3e
+ 449 0019 0B       		.uleb128 0xb
+ 450 001a 03       		.uleb128 0x3
+ 451 001b 0E       		.uleb128 0xe
+ 452 001c 00       		.byte	0
+ 453 001d 00       		.byte	0
+ 454 001e 03       		.uleb128 0x3
+ 455 001f 24       		.uleb128 0x24
+ 456 0020 00       		.byte	0
+ 457 0021 0B       		.uleb128 0xb
+ 458 0022 0B       		.uleb128 0xb
+ 459 0023 3E       		.uleb128 0x3e
+ 460 0024 0B       		.uleb128 0xb
+ 461 0025 03       		.uleb128 0x3
+ 462 0026 08       		.uleb128 0x8
+ 463 0027 00       		.byte	0
+ 464 0028 00       		.byte	0
+ 465 0029 04       		.uleb128 0x4
+ 466 002a 16       		.uleb128 0x16
+ 467 002b 00       		.byte	0
+ 468 002c 03       		.uleb128 0x3
+ 469 002d 0E       		.uleb128 0xe
+ 470 002e 3A       		.uleb128 0x3a
+ 471 002f 0B       		.uleb128 0xb
+ 472 0030 3B       		.uleb128 0x3b
+ 473 0031 05       		.uleb128 0x5
+ 474 0032 49       		.uleb128 0x49
+ 475 0033 13       		.uleb128 0x13
+ 476 0034 00       		.byte	0
+ 477 0035 00       		.byte	0
+ 478 0036 05       		.uleb128 0x5
+ 479 0037 2E       		.uleb128 0x2e
+ 480 0038 01       		.byte	0x1
+ 481 0039 3F       		.uleb128 0x3f
+ 482 003a 19       		.uleb128 0x19
+ 483 003b 03       		.uleb128 0x3
+ 484 003c 0E       		.uleb128 0xe
+ 485 003d 3A       		.uleb128 0x3a
+ 486 003e 0B       		.uleb128 0xb
+ 487 003f 3B       		.uleb128 0x3b
+ 488 0040 0B       		.uleb128 0xb
+ 489 0041 27       		.uleb128 0x27
+ 490 0042 19       		.uleb128 0x19
+ 491 0043 11       		.uleb128 0x11
+ 492 0044 01       		.uleb128 0x1
+ 493 0045 12       		.uleb128 0x12
+ 494 0046 06       		.uleb128 0x6
+ 495 0047 40       		.uleb128 0x40
+ 496 0048 18       		.uleb128 0x18
+ 497 0049 9742     		.uleb128 0x2117
+ 498 004b 19       		.uleb128 0x19
+ 499 004c 01       		.uleb128 0x1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 13
 
 
- 576 0047 40       		.uleb128 0x40
- 577 0048 18       		.uleb128 0x18
- 578 0049 9742     		.uleb128 0x2117
- 579 004b 19       		.uleb128 0x19
- 580 004c 01       		.uleb128 0x1
- 581 004d 13       		.uleb128 0x13
- 582 004e 00       		.byte	0
- 583 004f 00       		.byte	0
- 584 0050 06       		.uleb128 0x6
- 585 0051 34       		.uleb128 0x34
- 586 0052 00       		.byte	0
- 587 0053 03       		.uleb128 0x3
- 588 0054 0E       		.uleb128 0xe
- 589 0055 3A       		.uleb128 0x3a
- 590 0056 0B       		.uleb128 0xb
- 591 0057 3B       		.uleb128 0x3b
- 592 0058 0B       		.uleb128 0xb
- 593 0059 49       		.uleb128 0x49
- 594 005a 13       		.uleb128 0x13
- 595 005b 02       		.uleb128 0x2
- 596 005c 17       		.uleb128 0x17
- 597 005d 00       		.byte	0
- 598 005e 00       		.byte	0
- 599 005f 07       		.uleb128 0x7
- 600 0060 898201   		.uleb128 0x4109
- 601 0063 01       		.byte	0x1
- 602 0064 11       		.uleb128 0x11
- 603 0065 01       		.uleb128 0x1
- 604 0066 31       		.uleb128 0x31
- 605 0067 13       		.uleb128 0x13
- 606 0068 01       		.uleb128 0x1
- 607 0069 13       		.uleb128 0x13
- 608 006a 00       		.byte	0
- 609 006b 00       		.byte	0
- 610 006c 08       		.uleb128 0x8
- 611 006d 8A8201   		.uleb128 0x410a
- 612 0070 00       		.byte	0
- 613 0071 02       		.uleb128 0x2
- 614 0072 18       		.uleb128 0x18
- 615 0073 9142     		.uleb128 0x2111
- 616 0075 18       		.uleb128 0x18
- 617 0076 00       		.byte	0
- 618 0077 00       		.byte	0
- 619 0078 09       		.uleb128 0x9
- 620 0079 898201   		.uleb128 0x4109
- 621 007c 01       		.byte	0x1
- 622 007d 11       		.uleb128 0x11
- 623 007e 01       		.uleb128 0x1
- 624 007f 31       		.uleb128 0x31
- 625 0080 13       		.uleb128 0x13
- 626 0081 00       		.byte	0
- 627 0082 00       		.byte	0
- 628 0083 0A       		.uleb128 0xa
- 629 0084 05       		.uleb128 0x5
- 630 0085 00       		.byte	0
- 631 0086 03       		.uleb128 0x3
- 632 0087 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 15
+ 500 004d 13       		.uleb128 0x13
+ 501 004e 00       		.byte	0
+ 502 004f 00       		.byte	0
+ 503 0050 06       		.uleb128 0x6
+ 504 0051 34       		.uleb128 0x34
+ 505 0052 00       		.byte	0
+ 506 0053 03       		.uleb128 0x3
+ 507 0054 0E       		.uleb128 0xe
+ 508 0055 3A       		.uleb128 0x3a
+ 509 0056 0B       		.uleb128 0xb
+ 510 0057 3B       		.uleb128 0x3b
+ 511 0058 0B       		.uleb128 0xb
+ 512 0059 49       		.uleb128 0x49
+ 513 005a 13       		.uleb128 0x13
+ 514 005b 02       		.uleb128 0x2
+ 515 005c 17       		.uleb128 0x17
+ 516 005d 00       		.byte	0
+ 517 005e 00       		.byte	0
+ 518 005f 07       		.uleb128 0x7
+ 519 0060 898201   		.uleb128 0x4109
+ 520 0063 01       		.byte	0x1
+ 521 0064 11       		.uleb128 0x11
+ 522 0065 01       		.uleb128 0x1
+ 523 0066 31       		.uleb128 0x31
+ 524 0067 13       		.uleb128 0x13
+ 525 0068 01       		.uleb128 0x1
+ 526 0069 13       		.uleb128 0x13
+ 527 006a 00       		.byte	0
+ 528 006b 00       		.byte	0
+ 529 006c 08       		.uleb128 0x8
+ 530 006d 8A8201   		.uleb128 0x410a
+ 531 0070 00       		.byte	0
+ 532 0071 02       		.uleb128 0x2
+ 533 0072 18       		.uleb128 0x18
+ 534 0073 9142     		.uleb128 0x2111
+ 535 0075 18       		.uleb128 0x18
+ 536 0076 00       		.byte	0
+ 537 0077 00       		.byte	0
+ 538 0078 09       		.uleb128 0x9
+ 539 0079 898201   		.uleb128 0x4109
+ 540 007c 01       		.byte	0x1
+ 541 007d 11       		.uleb128 0x11
+ 542 007e 01       		.uleb128 0x1
+ 543 007f 31       		.uleb128 0x31
+ 544 0080 13       		.uleb128 0x13
+ 545 0081 00       		.byte	0
+ 546 0082 00       		.byte	0
+ 547 0083 0A       		.uleb128 0xa
+ 548 0084 05       		.uleb128 0x5
+ 549 0085 00       		.byte	0
+ 550 0086 03       		.uleb128 0x3
+ 551 0087 0E       		.uleb128 0xe
+ 552 0088 3A       		.uleb128 0x3a
+ 553 0089 0B       		.uleb128 0xb
+ 554 008a 3B       		.uleb128 0x3b
+ 555 008b 0B       		.uleb128 0xb
+ 556 008c 49       		.uleb128 0x49
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 14
 
 
- 633 0088 3A       		.uleb128 0x3a
- 634 0089 0B       		.uleb128 0xb
- 635 008a 3B       		.uleb128 0x3b
- 636 008b 0B       		.uleb128 0xb
- 637 008c 49       		.uleb128 0x49
- 638 008d 13       		.uleb128 0x13
- 639 008e 02       		.uleb128 0x2
- 640 008f 17       		.uleb128 0x17
- 641 0090 00       		.byte	0
- 642 0091 00       		.byte	0
- 643 0092 0B       		.uleb128 0xb
- 644 0093 898201   		.uleb128 0x4109
- 645 0096 00       		.byte	0
- 646 0097 11       		.uleb128 0x11
- 647 0098 01       		.uleb128 0x1
- 648 0099 31       		.uleb128 0x31
- 649 009a 13       		.uleb128 0x13
- 650 009b 00       		.byte	0
- 651 009c 00       		.byte	0
- 652 009d 0C       		.uleb128 0xc
- 653 009e 34       		.uleb128 0x34
- 654 009f 00       		.byte	0
- 655 00a0 03       		.uleb128 0x3
- 656 00a1 0E       		.uleb128 0xe
- 657 00a2 3A       		.uleb128 0x3a
- 658 00a3 0B       		.uleb128 0xb
- 659 00a4 3B       		.uleb128 0x3b
- 660 00a5 0B       		.uleb128 0xb
- 661 00a6 49       		.uleb128 0x49
- 662 00a7 13       		.uleb128 0x13
- 663 00a8 02       		.uleb128 0x2
- 664 00a9 18       		.uleb128 0x18
- 665 00aa 00       		.byte	0
- 666 00ab 00       		.byte	0
- 667 00ac 0D       		.uleb128 0xd
- 668 00ad 2E       		.uleb128 0x2e
- 669 00ae 00       		.byte	0
- 670 00af 3F       		.uleb128 0x3f
- 671 00b0 19       		.uleb128 0x19
- 672 00b1 3C       		.uleb128 0x3c
- 673 00b2 19       		.uleb128 0x19
- 674 00b3 6E       		.uleb128 0x6e
- 675 00b4 0E       		.uleb128 0xe
- 676 00b5 03       		.uleb128 0x3
- 677 00b6 0E       		.uleb128 0xe
- 678 00b7 3A       		.uleb128 0x3a
- 679 00b8 0B       		.uleb128 0xb
- 680 00b9 3B       		.uleb128 0x3b
- 681 00ba 0B       		.uleb128 0xb
- 682 00bb 00       		.byte	0
- 683 00bc 00       		.byte	0
- 684 00bd 00       		.byte	0
- 685              		.section	.debug_loc,"",%progbits
- 686              	.Ldebug_loc0:
- 687              	.LLST0:
- 688 0000 02000000 		.4byte	.LVL0
- 689 0004 06000000 		.4byte	.LVL1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 16
+ 557 008d 13       		.uleb128 0x13
+ 558 008e 02       		.uleb128 0x2
+ 559 008f 17       		.uleb128 0x17
+ 560 0090 00       		.byte	0
+ 561 0091 00       		.byte	0
+ 562 0092 0B       		.uleb128 0xb
+ 563 0093 898201   		.uleb128 0x4109
+ 564 0096 00       		.byte	0
+ 565 0097 11       		.uleb128 0x11
+ 566 0098 01       		.uleb128 0x1
+ 567 0099 31       		.uleb128 0x31
+ 568 009a 13       		.uleb128 0x13
+ 569 009b 00       		.byte	0
+ 570 009c 00       		.byte	0
+ 571 009d 0C       		.uleb128 0xc
+ 572 009e 34       		.uleb128 0x34
+ 573 009f 00       		.byte	0
+ 574 00a0 03       		.uleb128 0x3
+ 575 00a1 0E       		.uleb128 0xe
+ 576 00a2 3A       		.uleb128 0x3a
+ 577 00a3 0B       		.uleb128 0xb
+ 578 00a4 3B       		.uleb128 0x3b
+ 579 00a5 0B       		.uleb128 0xb
+ 580 00a6 49       		.uleb128 0x49
+ 581 00a7 13       		.uleb128 0x13
+ 582 00a8 02       		.uleb128 0x2
+ 583 00a9 18       		.uleb128 0x18
+ 584 00aa 00       		.byte	0
+ 585 00ab 00       		.byte	0
+ 586 00ac 0D       		.uleb128 0xd
+ 587 00ad 2E       		.uleb128 0x2e
+ 588 00ae 00       		.byte	0
+ 589 00af 3F       		.uleb128 0x3f
+ 590 00b0 19       		.uleb128 0x19
+ 591 00b1 3C       		.uleb128 0x3c
+ 592 00b2 19       		.uleb128 0x19
+ 593 00b3 6E       		.uleb128 0x6e
+ 594 00b4 0E       		.uleb128 0xe
+ 595 00b5 03       		.uleb128 0x3
+ 596 00b6 0E       		.uleb128 0xe
+ 597 00b7 3A       		.uleb128 0x3a
+ 598 00b8 0B       		.uleb128 0xb
+ 599 00b9 3B       		.uleb128 0x3b
+ 600 00ba 0B       		.uleb128 0xb
+ 601 00bb 00       		.byte	0
+ 602 00bc 00       		.byte	0
+ 603 00bd 00       		.byte	0
+ 604              		.section	.debug_loc,"",%progbits
+ 605              	.Ldebug_loc0:
+ 606              	.LLST0:
+ 607 0000 02000000 		.4byte	.LVL0
+ 608 0004 06000000 		.4byte	.LVL1
+ 609 0008 0200     		.2byte	0x2
+ 610 000a 30       		.byte	0x30
+ 611 000b 9F       		.byte	0x9f
+ 612 000c 06000000 		.4byte	.LVL1
+ 613 0010 14000000 		.4byte	.LVL4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 15
 
 
- 690 0008 0200     		.2byte	0x2
- 691 000a 30       		.byte	0x30
- 692 000b 9F       		.byte	0x9f
- 693 000c 06000000 		.4byte	.LVL1
- 694 0010 14000000 		.4byte	.LVL4
- 695 0014 0100     		.2byte	0x1
- 696 0016 54       		.byte	0x54
- 697 0017 16000000 		.4byte	.LVL5
- 698 001b 22000000 		.4byte	.LVL6
- 699 001f 0100     		.2byte	0x1
- 700 0021 54       		.byte	0x54
- 701 0022 00000000 		.4byte	0
- 702 0026 00000000 		.4byte	0
- 703              	.LLST1:
- 704 002a 00000000 		.4byte	.LVL7
- 705 002e 07000000 		.4byte	.LVL8-1
- 706 0032 0100     		.2byte	0x1
- 707 0034 50       		.byte	0x50
- 708 0035 07000000 		.4byte	.LVL8-1
- 709 0039 10000000 		.4byte	.LFE3
- 710 003d 0400     		.2byte	0x4
- 711 003f F3       		.byte	0xf3
- 712 0040 01       		.uleb128 0x1
- 713 0041 50       		.byte	0x50
- 714 0042 9F       		.byte	0x9f
- 715 0043 00000000 		.4byte	0
- 716 0047 00000000 		.4byte	0
- 717              	.LLST2:
- 718 004b 00000000 		.4byte	.LVL10
- 719 004f 07000000 		.4byte	.LVL11-1
- 720 0053 0100     		.2byte	0x1
- 721 0055 50       		.byte	0x50
- 722 0056 07000000 		.4byte	.LVL11-1
- 723 005a 18000000 		.4byte	.LFE1
- 724 005e 0400     		.2byte	0x4
- 725 0060 F3       		.byte	0xf3
- 726 0061 01       		.uleb128 0x1
- 727 0062 50       		.byte	0x50
- 728 0063 9F       		.byte	0x9f
- 729 0064 00000000 		.4byte	0
- 730 0068 00000000 		.4byte	0
- 731              	.LLST3:
- 732 006c 00000000 		.4byte	.LVL13
- 733 0070 07000000 		.4byte	.LVL14-1
- 734 0074 0100     		.2byte	0x1
- 735 0076 50       		.byte	0x50
- 736 0077 07000000 		.4byte	.LVL14-1
- 737 007b 10000000 		.4byte	.LFE4
- 738 007f 0400     		.2byte	0x4
- 739 0081 F3       		.byte	0xf3
- 740 0082 01       		.uleb128 0x1
- 741 0083 50       		.byte	0x50
- 742 0084 9F       		.byte	0x9f
- 743 0085 00000000 		.4byte	0
- 744 0089 00000000 		.4byte	0
- 745              	.LLST4:
- 746 008d 00000000 		.4byte	.LVL16
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 17
+ 614 0014 0100     		.2byte	0x1
+ 615 0016 54       		.byte	0x54
+ 616 0017 16000000 		.4byte	.LVL5
+ 617 001b 22000000 		.4byte	.LVL6
+ 618 001f 0100     		.2byte	0x1
+ 619 0021 54       		.byte	0x54
+ 620 0022 00000000 		.4byte	0
+ 621 0026 00000000 		.4byte	0
+ 622              	.LLST1:
+ 623 002a 00000000 		.4byte	.LVL7
+ 624 002e 07000000 		.4byte	.LVL8-1
+ 625 0032 0100     		.2byte	0x1
+ 626 0034 50       		.byte	0x50
+ 627 0035 07000000 		.4byte	.LVL8-1
+ 628 0039 10000000 		.4byte	.LFE2
+ 629 003d 0400     		.2byte	0x4
+ 630 003f F3       		.byte	0xf3
+ 631 0040 01       		.uleb128 0x1
+ 632 0041 50       		.byte	0x50
+ 633 0042 9F       		.byte	0x9f
+ 634 0043 00000000 		.4byte	0
+ 635 0047 00000000 		.4byte	0
+ 636              	.LLST2:
+ 637 004b 00000000 		.4byte	.LVL10
+ 638 004f 08000000 		.4byte	.LVL11
+ 639 0053 0100     		.2byte	0x1
+ 640 0055 50       		.byte	0x50
+ 641 0056 08000000 		.4byte	.LVL11
+ 642 005a 28000000 		.4byte	.LFE1
+ 643 005e 0400     		.2byte	0x4
+ 644 0060 F3       		.byte	0xf3
+ 645 0061 01       		.uleb128 0x1
+ 646 0062 50       		.byte	0x50
+ 647 0063 9F       		.byte	0x9f
+ 648 0064 00000000 		.4byte	0
+ 649 0068 00000000 		.4byte	0
+ 650              		.section	.debug_aranges,"",%progbits
+ 651 0000 34000000 		.4byte	0x34
+ 652 0004 0200     		.2byte	0x2
+ 653 0006 00000000 		.4byte	.Ldebug_info0
+ 654 000a 04       		.byte	0x4
+ 655 000b 00       		.byte	0
+ 656 000c 0000     		.2byte	0
+ 657 000e 0000     		.2byte	0
+ 658 0010 00000000 		.4byte	.LFB0
+ 659 0014 28000000 		.4byte	.LFE0-.LFB0
+ 660 0018 00000000 		.4byte	.LFB2
+ 661 001c 10000000 		.4byte	.LFE2-.LFB2
+ 662 0020 00000000 		.4byte	.LFB1
+ 663 0024 28000000 		.4byte	.LFE1-.LFB1
+ 664 0028 00000000 		.4byte	.LFB3
+ 665 002c 1C000000 		.4byte	.LFE3-.LFB3
+ 666 0030 00000000 		.4byte	0
+ 667 0034 00000000 		.4byte	0
+ 668              		.section	.debug_ranges,"",%progbits
+ 669              	.Ldebug_ranges0:
+ 670 0000 00000000 		.4byte	.LFB0
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 16
 
 
- 747 0091 08000000 		.4byte	.LVL17
- 748 0095 0100     		.2byte	0x1
- 749 0097 50       		.byte	0x50
- 750 0098 08000000 		.4byte	.LVL17
- 751 009c 28000000 		.4byte	.LFE2
- 752 00a0 0400     		.2byte	0x4
- 753 00a2 F3       		.byte	0xf3
- 754 00a3 01       		.uleb128 0x1
- 755 00a4 50       		.byte	0x50
- 756 00a5 9F       		.byte	0x9f
- 757 00a6 00000000 		.4byte	0
- 758 00aa 00000000 		.4byte	0
- 759              		.section	.debug_aranges,"",%progbits
- 760 0000 3C000000 		.4byte	0x3c
- 761 0004 0200     		.2byte	0x2
- 762 0006 00000000 		.4byte	.Ldebug_info0
- 763 000a 04       		.byte	0x4
- 764 000b 00       		.byte	0
- 765 000c 0000     		.2byte	0
- 766 000e 0000     		.2byte	0
- 767 0010 00000000 		.4byte	.LFB0
- 768 0014 28000000 		.4byte	.LFE0-.LFB0
- 769 0018 00000000 		.4byte	.LFB3
- 770 001c 10000000 		.4byte	.LFE3-.LFB3
- 771 0020 00000000 		.4byte	.LFB1
- 772 0024 18000000 		.4byte	.LFE1-.LFB1
- 773 0028 00000000 		.4byte	.LFB4
- 774 002c 10000000 		.4byte	.LFE4-.LFB4
- 775 0030 00000000 		.4byte	.LFB2
- 776 0034 28000000 		.4byte	.LFE2-.LFB2
- 777 0038 00000000 		.4byte	0
- 778 003c 00000000 		.4byte	0
- 779              		.section	.debug_ranges,"",%progbits
- 780              	.Ldebug_ranges0:
- 781 0000 00000000 		.4byte	.LFB0
- 782 0004 28000000 		.4byte	.LFE0
- 783 0008 00000000 		.4byte	.LFB3
- 784 000c 10000000 		.4byte	.LFE3
- 785 0010 00000000 		.4byte	.LFB1
- 786 0014 18000000 		.4byte	.LFE1
- 787 0018 00000000 		.4byte	.LFB4
- 788 001c 10000000 		.4byte	.LFE4
- 789 0020 00000000 		.4byte	.LFB2
- 790 0024 28000000 		.4byte	.LFE2
- 791 0028 00000000 		.4byte	0
- 792 002c 00000000 		.4byte	0
- 793              		.section	.debug_line,"",%progbits
- 794              	.Ldebug_line0:
- 795 0000 D2000000 		.section	.debug_str,"MS",%progbits,1
- 795      02005500 
- 795      00000201 
- 795      FB0E0D00 
- 795      01010101 
- 796              	.LASF15:
- 797 0000 6368616E 		.ascii	"channel\000"
- 797      6E656C00 
- 798              	.LASF13:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 18
+ 671 0004 28000000 		.4byte	.LFE0
+ 672 0008 00000000 		.4byte	.LFB2
+ 673 000c 10000000 		.4byte	.LFE2
+ 674 0010 00000000 		.4byte	.LFB1
+ 675 0014 28000000 		.4byte	.LFE1
+ 676 0018 00000000 		.4byte	.LFB3
+ 677 001c 1C000000 		.4byte	.LFE3
+ 678 0020 00000000 		.4byte	0
+ 679 0024 00000000 		.4byte	0
+ 680              		.section	.debug_line,"",%progbits
+ 681              	.Ldebug_line0:
+ 682 0000 C0000000 		.section	.debug_str,"MS",%progbits,1
+ 682      02005500 
+ 682      00000201 
+ 682      FB0E0D00 
+ 682      01010101 
+ 683              	.LASF15:
+ 684 0000 6368616E 		.ascii	"channel\000"
+ 684      6E656C00 
+ 685              	.LASF24:
+ 686 0008 47656E65 		.ascii	"Generated_Source\\PSoC5\\AMux_1.c\000"
+ 686      72617465 
+ 686      645F536F 
+ 686      75726365 
+ 686      5C50536F 
+ 687              	.LASF20:
+ 688 0028 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_B_Unset\000"
+ 688      5F315F43 
+ 688      59414D55 
+ 688      58534944 
+ 688      455F425F 
+ 689              	.LASF21:
+ 690 0042 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_A_Set\000"
+ 690      5F315F43 
+ 690      59414D55 
+ 690      58534944 
+ 690      455F415F 
+ 691              	.LASF9:
+ 692 005a 666C6F61 		.ascii	"float\000"
+ 692      7400
+ 693              	.LASF19:
+ 694 0060 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_A_Unset\000"
+ 694      5F315F43 
+ 694      59414D55 
+ 694      58534944 
+ 694      455F415F 
+ 695              	.LASF7:
+ 696 007a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 696      206C6F6E 
+ 696      6720756E 
+ 696      7369676E 
+ 696      65642069 
+ 697              	.LASF1:
+ 698 0091 756E7369 		.ascii	"unsigned char\000"
+ 698      676E6564 
+ 698      20636861 
+ 698      7200
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 17
 
 
- 799 0008 414D7578 		.ascii	"AMux_1_Connect\000"
- 799      5F315F43 
- 799      6F6E6E65 
- 799      637400
- 800              	.LASF25:
- 801 0017 47656E65 		.ascii	"Generated_Source\\PSoC5\\AMux_1.c\000"
- 801      72617465 
- 801      645F536F 
- 801      75726365 
- 801      5C50536F 
- 802              	.LASF21:
- 803 0037 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_B_Unset\000"
- 803      5F315F43 
- 803      59414D55 
- 803      58534944 
- 803      455F425F 
- 804              	.LASF22:
- 805 0051 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_A_Set\000"
- 805      5F315F43 
- 805      59414D55 
- 805      58534944 
- 805      455F415F 
- 806              	.LASF9:
- 807 0069 666C6F61 		.ascii	"float\000"
- 807      7400
- 808              	.LASF20:
- 809 006f 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_A_Unset\000"
- 809      5F315F43 
- 809      59414D55 
- 809      58534944 
- 809      455F415F 
- 810              	.LASF1:
- 811 0089 756E7369 		.ascii	"unsigned char\000"
- 811      676E6564 
- 811      20636861 
- 811      7200
- 812              	.LASF24:
- 813 0097 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 813      43313120 
- 813      352E342E 
- 813      31203230 
- 813      31363036 
- 814 00ca 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 814      20726576 
- 814      6973696F 
- 814      6E203233 
- 814      37373135 
- 815 00fd 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 815      66756E63 
- 815      74696F6E 
- 815      2D736563 
- 815      74696F6E 
- 816              	.LASF17:
- 817 0125 414D7578 		.ascii	"AMux_1_FastSelect\000"
- 817      5F315F46 
- 817      61737453 
- 817      656C6563 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 19
+ 699              	.LASF23:
+ 700 009f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 700      43313120 
+ 700      352E342E 
+ 700      31203230 
+ 700      31363036 
+ 701 00d2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 701      20726576 
+ 701      6973696F 
+ 701      6E203233 
+ 701      37373135 
+ 702 0105 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 702      66756E63 
+ 702      74696F6E 
+ 702      2D736563 
+ 702      74696F6E 
+ 703              	.LASF14:
+ 704 012d 414D7578 		.ascii	"AMux_1_FastSelect\000"
+ 704      5F315F46 
+ 704      61737453 
+ 704      656C6563 
+ 704      7400
+ 705              	.LASF5:
+ 706 013f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 706      20756E73 
+ 706      69676E65 
+ 706      6420696E 
+ 706      7400
+ 707              	.LASF3:
+ 708 0151 73686F72 		.ascii	"short unsigned int\000"
+ 708      7420756E 
+ 708      7369676E 
+ 708      65642069 
+ 708      6E7400
+ 709              	.LASF22:
+ 710 0164 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_B_Set\000"
+ 710      5F315F43 
+ 710      59414D55 
+ 710      58534944 
+ 710      455F425F 
+ 711              	.LASF10:
+ 712 017c 646F7562 		.ascii	"double\000"
+ 712      6C6500
+ 713              	.LASF12:
+ 714 0183 414D7578 		.ascii	"AMux_1_Start\000"
+ 714      5F315F53 
+ 714      74617274 
+ 714      00
+ 715              	.LASF16:
+ 716 0190 414D7578 		.ascii	"AMux_1_DisconnectAll\000"
+ 716      5F315F44 
+ 716      6973636F 
+ 716      6E6E6563 
+ 716      74416C6C 
+ 717              	.LASF8:
+ 718 01a5 756E7369 		.ascii	"unsigned int\000"
+ 718      676E6564 
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\cciVgeAa.s 			page 18
 
 
- 817      7400
- 818              	.LASF5:
- 819 0137 6C6F6E67 		.ascii	"long unsigned int\000"
- 819      20756E73 
- 819      69676E65 
- 819      6420696E 
- 819      7400
- 820              	.LASF3:
- 821 0149 73686F72 		.ascii	"short unsigned int\000"
- 821      7420756E 
- 821      7369676E 
- 821      65642069 
- 821      6E7400
- 822              	.LASF23:
- 823 015c 414D7578 		.ascii	"AMux_1_CYAMUXSIDE_B_Set\000"
- 823      5F315F43 
- 823      59414D55 
- 823      58534944 
- 823      455F425F 
- 824              	.LASF10:
- 825 0174 646F7562 		.ascii	"double\000"
- 825      6C6500
- 826              	.LASF26:
- 827 017b 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\PSoC Creator"
- 827      73657273 
- 827      5C4C756B 
- 827      65665C4F 
- 827      6E654472 
- 828 01a9 5C546865 		.ascii	"\\Thermistor_Lab\\Thermistor_Reading.cydsn\000"
- 828      726D6973 
- 828      746F725F 
- 828      4C61625C 
- 828      54686572 
- 829              	.LASF12:
- 830 01d2 414D7578 		.ascii	"AMux_1_Start\000"
- 830      5F315F53 
- 830      74617274 
- 830      00
- 831              	.LASF8:
- 832 01df 756E7369 		.ascii	"unsigned int\000"
- 832      676E6564 
- 832      20696E74 
- 832      00
- 833              	.LASF7:
- 834 01ec 6C6F6E67 		.ascii	"long long unsigned int\000"
- 834      206C6F6E 
- 834      6720756E 
- 834      7369676E 
- 834      65642069 
- 835              	.LASF16:
- 836 0203 414D7578 		.ascii	"AMux_1_Disconnect\000"
- 836      5F315F44 
- 836      6973636F 
- 836      6E6E6563 
- 836      7400
- 837              	.LASF18:
- 838 0215 6368616E 		.ascii	"chan\000"
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccYTMPAk.s 			page 20
-
-
- 838      00
- 839              	.LASF6:
- 840 021a 6C6F6E67 		.ascii	"long long int\000"
- 840      206C6F6E 
- 840      6720696E 
- 840      7400
- 841              	.LASF11:
- 842 0228 63686172 		.ascii	"char\000"
- 842      00
- 843              	.LASF14:
- 844 022d 414D7578 		.ascii	"AMux_1_Select\000"
- 844      5F315F53 
- 844      656C6563 
- 844      7400
- 845              	.LASF2:
- 846 023b 73686F72 		.ascii	"short int\000"
- 846      7420696E 
- 846      7400
- 847              	.LASF27:
- 848 0245 75696E74 		.ascii	"uint8\000"
- 848      3800
- 849              	.LASF4:
- 850 024b 6C6F6E67 		.ascii	"long int\000"
- 850      20696E74 
- 850      00
- 851              	.LASF0:
- 852 0254 7369676E 		.ascii	"signed char\000"
- 852      65642063 
- 852      68617200 
- 853              	.LASF19:
- 854 0260 414D7578 		.ascii	"AMux_1_lastChannel\000"
- 854      5F315F6C 
- 854      61737443 
- 854      68616E6E 
- 854      656C00
- 855              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 718      20696E74 
+ 718      00
+ 719              	.LASF25:
+ 720 01b2 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\Thermistor-R"
+ 720      73657273 
+ 720      5C4C756B 
+ 720      65665C4F 
+ 720      6E654472 
+ 721 01e0 65616469 		.ascii	"eading\\Thermistor_Reading.cydsn\000"
+ 721      6E675C54 
+ 721      6865726D 
+ 721      6973746F 
+ 721      725F5265 
+ 722              	.LASF13:
+ 723 0200 414D7578 		.ascii	"AMux_1_Disconnect\000"
+ 723      5F315F44 
+ 723      6973636F 
+ 723      6E6E6563 
+ 723      7400
+ 724              	.LASF17:
+ 725 0212 6368616E 		.ascii	"chan\000"
+ 725      00
+ 726              	.LASF6:
+ 727 0217 6C6F6E67 		.ascii	"long long int\000"
+ 727      206C6F6E 
+ 727      6720696E 
+ 727      7400
+ 728              	.LASF11:
+ 729 0225 63686172 		.ascii	"char\000"
+ 729      00
+ 730              	.LASF2:
+ 731 022a 73686F72 		.ascii	"short int\000"
+ 731      7420696E 
+ 731      7400
+ 732              	.LASF26:
+ 733 0234 75696E74 		.ascii	"uint8\000"
+ 733      3800
+ 734              	.LASF4:
+ 735 023a 6C6F6E67 		.ascii	"long int\000"
+ 735      20696E74 
+ 735      00
+ 736              	.LASF0:
+ 737 0243 7369676E 		.ascii	"signed char\000"
+ 737      65642063 
+ 737      68617200 
+ 738              	.LASF18:
+ 739 024f 414D7578 		.ascii	"AMux_1_lastChannel\000"
+ 739      5F315F6C 
+ 739      61737443 
+ 739      68616E6E 
+ 739      656C00
+ 740              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

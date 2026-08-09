@@ -1,6 +1,6 @@
 // ======================================================================
 // Thermistor_Reading.v generated from TopDesign.cysch
-// 08/09/2026 at 12:33
+// 08/09/2026 at 13:55
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -500,10 +500,10 @@ module top ;
           wire  Net_7;
           wire  Net_4;
           wire  Net_5;
+    electrical  Net_39;
     electrical  Net_2;
     electrical  Net_1;
-    electrical  Net_32;
-    electrical  Net_39;
+    electrical  Net_101;
     electrical  Net_25;
     electrical  Net_10;
     electrical  Net_23;
@@ -619,7 +619,7 @@ module top ;
 		 (.oe(tmpOE__P3_1_net),
 		  .y({1'b0}),
 		  .fb({tmpFB_0__P3_1_net[0:0]}),
-		  .analog({Net_32}),
+		  .analog({Net_101}),
 		  .io({tmpIO_0__P3_1_net[0:0]}),
 		  .siovref(tmpSIOVREF__P3_1_net),
 		  .interrupt({tmpINTERRUPT_0__P3_1_net[0:0]}),
@@ -715,7 +715,7 @@ module top ;
     
     cy_psoc3_amux_v1_0 AMux_1_CYAMUXSIDE_A(
         .muxin({
-            Net_32,
+            Net_101,
             Net_25
             }),
         .vout(Net_1)
@@ -723,7 +723,7 @@ module top ;
     
     defparam AMux_1_CYAMUXSIDE_A.muxin_width = 2;
     defparam AMux_1_CYAMUXSIDE_A.init_mux_sel = 2'h0;
-    defparam AMux_1_CYAMUXSIDE_A.one_active = 0;
+    defparam AMux_1_CYAMUXSIDE_A.one_active = 1;
     defparam AMux_1_CYAMUXSIDE_A.connect_mode = 1;
     
     
@@ -732,14 +732,14 @@ module top ;
     cy_psoc3_amux_v1_0 AMux_1_CYAMUXSIDE_B(
         .muxin({
             Net_39,
-            Net_32
+            Net_101
             }),
         .vout(Net_2)
         );
     
     defparam AMux_1_CYAMUXSIDE_B.muxin_width = 2;
     defparam AMux_1_CYAMUXSIDE_B.init_mux_sel = 2'h0;
-    defparam AMux_1_CYAMUXSIDE_B.one_active = 0;
+    defparam AMux_1_CYAMUXSIDE_B.one_active = 1;
     defparam AMux_1_CYAMUXSIDE_B.connect_mode = 1;
     
     // -- AMux AMux_1 end --

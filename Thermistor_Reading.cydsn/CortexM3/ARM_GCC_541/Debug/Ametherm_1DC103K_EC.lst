@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
   28:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** *  thermistor are passed to this function as parameters. The function returns
   29:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** *  the resistance, based on the voltage values.
   30:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** *
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 2
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 2
 
 
   31:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** * Parameters:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
   57:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c ****     {
   58:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c ****         temp = (int16)((uint16)((uint16)vReference >> 1u));
   56              		.loc 1 58 0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 3
 
 
   57 0018 C0F34E03 		ubfx	r3, r0, #1, #15
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
   84:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** *
   85:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** *******************************************************************************/
   86:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** int16 Ametherm_1DC103K_EC_GetTemperature(uint32 resT) 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 4
 
 
   87:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  121              		.loc 1 105 0
  122 002e 0022     		movs	r2, #0
  123 0030 1F4B     		ldr	r3, .L6+32
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 5
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 5
 
 
  124 0032 3046     		mov	r0, r6
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  117:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c ****         uint16 last = Ametherm_1DC103K_EC_LUT_SIZE - 1u;
  118:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c **** 
  119:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c ****         /* Calculate temperature from the resistance of thermistor by using the LUT */
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 6
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 6
 
 
  120:Generated_Source\PSoC5/Ametherm_1DC103K_EC.c ****         while (first < last)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  178 00a8 66666666 		.word	1717986918
  179 00ac 66127140 		.word	1081152102
  180 00b0 00000840 		.word	1074266112
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 7
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 7
 
 
  181 00b4 0000F03F 		.word	1072693248
@@ -378,10 +378,10 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  195 0006 00000000 		.4byte	.Ldebug_abbrev0
  196 000a 04       		.byte	0x4
  197 000b 01       		.uleb128 0x1
- 198 000c 80010000 		.4byte	.LASF29
+ 198 000c 77010000 		.4byte	.LASF29
  199 0010 0C       		.byte	0xc
- 200 0011 53010000 		.4byte	.LASF30
- 201 0015 BE000000 		.4byte	.LASF31
+ 200 0011 4A010000 		.4byte	.LASF30
+ 201 0015 8D000000 		.4byte	.LASF31
  202 0019 00000000 		.4byte	.Ldebug_ranges0+0
  203 001d 00000000 		.4byte	0
  204 0021 00000000 		.4byte	.Ldebug_line0
@@ -392,19 +392,19 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  209 002c 03       		.uleb128 0x3
  210 002d 04       		.byte	0x4
  211 002e 07       		.byte	0x7
- 212 002f 23010000 		.4byte	.LASF0
+ 212 002f 1A010000 		.4byte	.LASF0
  213 0033 03       		.uleb128 0x3
  214 0034 08       		.byte	0x8
  215 0035 05       		.byte	0x5
- 216 0036 17020000 		.4byte	.LASF1
+ 216 0036 0E020000 		.4byte	.LASF1
  217 003a 03       		.uleb128 0x3
  218 003b 08       		.byte	0x8
  219 003c 04       		.byte	0x4
- 220 003d 48020000 		.4byte	.LASF2
+ 220 003d 3F020000 		.4byte	.LASF2
  221 0041 03       		.uleb128 0x3
  222 0042 01       		.byte	0x1
  223 0043 06       		.byte	0x6
- 224 0044 54020000 		.4byte	.LASF3
+ 224 0044 4B020000 		.4byte	.LASF3
  225 0048 03       		.uleb128 0x3
  226 0049 01       		.byte	0x1
  227 004a 08       		.byte	0x8
@@ -412,51 +412,51 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  229 004f 03       		.uleb128 0x3
  230 0050 02       		.byte	0x2
  231 0051 05       		.byte	0x5
- 232 0052 2A020000 		.4byte	.LASF5
+ 232 0052 21020000 		.4byte	.LASF5
  233 0056 03       		.uleb128 0x3
  234 0057 02       		.byte	0x2
  235 0058 07       		.byte	0x7
  236 0059 35000000 		.4byte	.LASF6
  237 005d 03       		.uleb128 0x3
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 8
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 8
 
 
  238 005e 04       		.byte	0x4
  239 005f 05       		.byte	0x5
- 240 0060 3A020000 		.4byte	.LASF7
+ 240 0060 31020000 		.4byte	.LASF7
  241 0064 03       		.uleb128 0x3
  242 0065 04       		.byte	0x4
  243 0066 07       		.byte	0x7
- 244 0067 93000000 		.4byte	.LASF8
+ 244 0067 E1000000 		.4byte	.LASF8
  245 006b 03       		.uleb128 0x3
  246 006c 08       		.byte	0x8
  247 006d 07       		.byte	0x7
- 248 006e 30010000 		.4byte	.LASF9
+ 248 006e 27010000 		.4byte	.LASF9
  249 0072 03       		.uleb128 0x3
  250 0073 04       		.byte	0x4
  251 0074 07       		.byte	0x7
- 252 0075 0E020000 		.4byte	.LASF10
+ 252 0075 05020000 		.4byte	.LASF10
  253 0079 03       		.uleb128 0x3
  254 007a 01       		.byte	0x1
  255 007b 08       		.byte	0x8
- 256 007c 25020000 		.4byte	.LASF11
+ 256 007c 1C020000 		.4byte	.LASF11
  257 0080 04       		.uleb128 0x4
- 258 0081 15010000 		.4byte	.LASF12
+ 258 0081 0C010000 		.4byte	.LASF12
  259 0085 02       		.byte	0x2
  260 0086 E901     		.2byte	0x1e9
  261 0088 56000000 		.4byte	0x56
  262 008c 04       		.uleb128 0x4
- 263 008d 1C010000 		.4byte	.LASF13
+ 263 008d 13010000 		.4byte	.LASF13
  264 0091 02       		.byte	0x2
  265 0092 EA01     		.2byte	0x1ea
  266 0094 64000000 		.4byte	0x64
  267 0098 04       		.uleb128 0x4
- 268 0099 8D000000 		.4byte	.LASF14
+ 268 0099 DB000000 		.4byte	.LASF14
  269 009d 02       		.byte	0x2
  270 009e EC01     		.2byte	0x1ec
  271 00a0 4F000000 		.4byte	0x4f
  272 00a4 04       		.uleb128 0x4
- 273 00a5 AA000000 		.4byte	.LASF15
+ 273 00a5 F8000000 		.4byte	.LASF15
  274 00a9 02       		.byte	0x2
  275 00aa ED01     		.2byte	0x1ed
  276 00ac 5D000000 		.4byte	0x5d
@@ -477,8 +477,8 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  291 00cf 03       		.uleb128 0x3
  292 00d0 08       		.byte	0x8
  293 00d1 04       		.byte	0x4
- 294 00d2 B7000000 		.4byte	.LASF19
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 9
+ 294 00d2 05010000 		.4byte	.LASF19
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 9
 
 
  295 00d6 05       		.uleb128 0x5
@@ -498,19 +498,19 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  309 00f6 98000000 		.4byte	0x98
  310 00fa 00000000 		.4byte	.LLST0
  311 00fe 06       		.uleb128 0x6
- 312 00ff 47010000 		.4byte	.LASF21
+ 312 00ff 3E010000 		.4byte	.LASF21
  313 0103 01       		.byte	0x1
  314 0104 2A       		.byte	0x2a
  315 0105 98000000 		.4byte	0x98
  316 0109 21000000 		.4byte	.LLST1
  317 010d 07       		.uleb128 0x7
- 318 010e 43020000 		.4byte	.LASF22
+ 318 010e 3A020000 		.4byte	.LASF22
  319 0112 01       		.byte	0x1
  320 0113 2D       		.byte	0x2d
  321 0114 A4000000 		.4byte	0xa4
  322 0118 42000000 		.4byte	.LLST2
  323 011c 07       		.uleb128 0x7
- 324 011d A5000000 		.4byte	.LASF23
+ 324 011d F3000000 		.4byte	.LASF23
  325 0121 01       		.byte	0x1
  326 0122 2E       		.byte	0x2e
  327 0123 98000000 		.4byte	0x98
@@ -527,23 +527,23 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  338 0140 9C       		.byte	0x9c
  339 0141 92010000 		.4byte	0x192
  340 0145 06       		.uleb128 0x6
- 341 0146 43020000 		.4byte	.LASF22
+ 341 0146 3A020000 		.4byte	.LASF22
  342 014a 01       		.byte	0x1
  343 014b 56       		.byte	0x56
  344 014c 8C000000 		.4byte	0x8c
  345 0150 A7000000 		.4byte	.LLST4
  346 0154 09       		.uleb128 0x9
- 347 0155 B0000000 		.4byte	.LASF26
+ 347 0155 FE000000 		.4byte	.LASF26
  348 0159 01       		.byte	0x1
  349 015a 58       		.byte	0x58
  350 015b 98000000 		.4byte	0x98
  351 015f 01       		.uleb128 0x1
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 10
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 10
 
 
  352 0160 50       		.byte	0x50
  353 0161 07       		.uleb128 0x7
- 354 0162 34020000 		.4byte	.LASF27
+ 354 0162 2B020000 		.4byte	.LASF27
  355 0166 01       		.byte	0x1
  356 0167 5C       		.byte	0x5c
  357 0168 B0000000 		.4byte	0xb0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  406 0015 00       		.byte	0
  407 0016 0B       		.uleb128 0xb
  408 0017 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 11
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 11
 
 
  409 0018 3E       		.uleb128 0x3e
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  463 004f 13       		.uleb128 0x13
  464 0050 00       		.byte	0
  465 0051 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 12
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 12
 
 
  466 0052 06       		.uleb128 0x6
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  520 0089 13       		.uleb128 0x13
  521 008a 00       		.byte	0
  522 008b 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 13
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 13
 
 
  523 008c 09       		.uleb128 0x9
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  577 0017 50       		.byte	0x50
  578 0018 9F       		.byte	0x9f
  579 0019 00000000 		.4byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 14
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 14
 
 
  580 001d 00000000 		.4byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  634 009e 53       		.byte	0x53
  635 009f 00000000 		.4byte	0
  636 00a3 00000000 		.4byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 15
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 15
 
 
  637              	.LLST4:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  689      00000201 
  689      FB0E0D00 
  689      01010101 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 16
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 16
 
 
  690              	.LASF18:
@@ -940,119 +940,119 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 1
  706              	.LASF28:
  707 0087 6C6F6772 		.ascii	"logrT\000"
  707      5400
- 708              	.LASF14:
- 709 008d 696E7431 		.ascii	"int16\000"
- 709      3600
- 710              	.LASF8:
- 711 0093 6C6F6E67 		.ascii	"long unsigned int\000"
- 711      20756E73 
- 711      69676E65 
- 711      6420696E 
- 711      7400
- 712              	.LASF23:
- 713 00a5 74656D70 		.ascii	"temp\000"
- 713      00
- 714              	.LASF15:
- 715 00aa 696E7433 		.ascii	"int32\000"
- 715      3200
- 716              	.LASF26:
- 717 00b0 74656D70 		.ascii	"tempTR\000"
- 717      545200
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 17
+ 708              	.LASF31:
+ 709 008d 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\Thermistor-R"
+ 709      73657273 
+ 709      5C4C756B 
+ 709      65665C4F 
+ 709      6E654472 
+ 710 00bb 65616469 		.ascii	"eading\\Thermistor_Reading.cydsn\000"
+ 710      6E675C54 
+ 710      6865726D 
+ 710      6973746F 
+ 710      725F5265 
+ 711              	.LASF14:
+ 712 00db 696E7431 		.ascii	"int16\000"
+ 712      3600
+ 713              	.LASF8:
+ 714 00e1 6C6F6E67 		.ascii	"long unsigned int\000"
+ 714      20756E73 
+ 714      69676E65 
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 17
 
 
- 718              	.LASF19:
- 719 00b7 646F7562 		.ascii	"double\000"
- 719      6C6500
- 720              	.LASF31:
- 721 00be 433A5C55 		.ascii	"C:\\Users\\Lukef\\OneDrive\\Documents\\PSoC Creator"
- 721      73657273 
- 721      5C4C756B 
- 721      65665C4F 
- 721      6E654472 
- 722 00ec 5C546865 		.ascii	"\\Thermistor_Lab\\Thermistor_Reading.cydsn\000"
- 722      726D6973 
- 722      746F725F 
- 722      4C61625C 
- 722      54686572 
+ 714      6420696E 
+ 714      7400
+ 715              	.LASF23:
+ 716 00f3 74656D70 		.ascii	"temp\000"
+ 716      00
+ 717              	.LASF15:
+ 718 00f8 696E7433 		.ascii	"int32\000"
+ 718      3200
+ 719              	.LASF26:
+ 720 00fe 74656D70 		.ascii	"tempTR\000"
+ 720      545200
+ 721              	.LASF19:
+ 722 0105 646F7562 		.ascii	"double\000"
+ 722      6C6500
  723              	.LASF12:
- 724 0115 75696E74 		.ascii	"uint16\000"
+ 724 010c 75696E74 		.ascii	"uint16\000"
  724      313600
  725              	.LASF13:
- 726 011c 75696E74 		.ascii	"uint32\000"
+ 726 0113 75696E74 		.ascii	"uint32\000"
  726      333200
  727              	.LASF0:
- 728 0123 756E7369 		.ascii	"unsigned int\000"
+ 728 011a 756E7369 		.ascii	"unsigned int\000"
  728      676E6564 
  728      20696E74 
  728      00
  729              	.LASF9:
- 730 0130 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 730 0127 6C6F6E67 		.ascii	"long long unsigned int\000"
  730      206C6F6E 
  730      6720756E 
  730      7369676E 
  730      65642069 
  731              	.LASF21:
- 732 0147 76546865 		.ascii	"vThermistor\000"
+ 732 013e 76546865 		.ascii	"vThermistor\000"
  732      726D6973 
  732      746F7200 
  733              	.LASF30:
- 734 0153 47656E65 		.ascii	"Generated_Source\\PSoC5\\Ametherm_1DC103K_EC.c\000"
+ 734 014a 47656E65 		.ascii	"Generated_Source\\PSoC5\\Ametherm_1DC103K_EC.c\000"
  734      72617465 
  734      645F536F 
  734      75726365 
  734      5C50536F 
  735              	.LASF29:
- 736 0180 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 736 0177 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  736      43313120 
  736      352E342E 
  736      31203230 
  736      31363036 
- 737 01b3 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 737 01aa 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
  737      20726576 
  737      6973696F 
  737      6E203233 
  737      37373135 
- 738 01e6 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 738 01dd 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
  738      66756E63 
  738      74696F6E 
  738      2D736563 
  738      74696F6E 
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccLGLrkk.s 			page 18
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccmZbl4l.s 			page 18
 
 
  739              	.LASF10:
- 740 020e 73697A65 		.ascii	"sizetype\000"
+ 740 0205 73697A65 		.ascii	"sizetype\000"
  740      74797065 
  740      00
  741              	.LASF1:
- 742 0217 6C6F6E67 		.ascii	"long long int\000"
+ 742 020e 6C6F6E67 		.ascii	"long long int\000"
  742      206C6F6E 
  742      6720696E 
  742      7400
  743              	.LASF11:
- 744 0225 63686172 		.ascii	"char\000"
+ 744 021c 63686172 		.ascii	"char\000"
  744      00
  745              	.LASF5:
- 746 022a 73686F72 		.ascii	"short int\000"
+ 746 0221 73686F72 		.ascii	"short int\000"
  746      7420696E 
  746      7400
  747              	.LASF27:
- 748 0234 73744571 		.ascii	"stEqn\000"
+ 748 022b 73744571 		.ascii	"stEqn\000"
  748      6E00
  749              	.LASF7:
- 750 023a 6C6F6E67 		.ascii	"long int\000"
+ 750 0231 6C6F6E67 		.ascii	"long int\000"
  750      20696E74 
  750      00
  751              	.LASF22:
- 752 0243 72657354 		.ascii	"resT\000"
+ 752 023a 72657354 		.ascii	"resT\000"
  752      00
  753              	.LASF2:
- 754 0248 6C6F6E67 		.ascii	"long double\000"
+ 754 023f 6C6F6E67 		.ascii	"long double\000"
  754      20646F75 
  754      626C6500 
  755              	.LASF3:
- 756 0254 7369676E 		.ascii	"signed char\000"
+ 756 024b 7369676E 		.ascii	"signed char\000"
  756      65642063 
  756      68617200 
  757              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

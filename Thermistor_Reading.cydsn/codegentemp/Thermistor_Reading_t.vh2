@@ -1,5 +1,5 @@
--- Project:   C:\Users\Lukef\OneDrive\Documents\PSoC Creator\Thermistor_Lab\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj
--- Generated: 08/09/2026 12:33:48
+-- Project:   C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj
+-- Generated: 08/09/2026 13:55:36
 -- PSoC Creator  4.4
 
 ENTITY Thermistor_Reading IS

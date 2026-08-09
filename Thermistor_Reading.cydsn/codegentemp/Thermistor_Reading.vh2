@@ -2,7 +2,7 @@
 --	Conversion of Thermistor_Reading.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Aug 09 12:33:46 2026
+--	Sun Aug 09 13:55:34 2026
 --
 
 USE cypress.cypress.all;
@@ -55,7 +55,7 @@ TERMINAL Net_24 : bit;
 TERMINAL Net_10 : bit;
 SIGNAL tmpOE__P3_1_net_0 : bit;
 SIGNAL tmpFB_0__P3_1_net_0 : bit;
-TERMINAL Net_32 : bit;
+TERMINAL Net_101 : bit;
 SIGNAL tmpIO_0__P3_1_net_0 : bit;
 TERMINAL tmpSIOVREF__P3_1_net_0 : bit;
 SIGNAL one : bit;
@@ -297,7 +297,7 @@ P3_1:cy_psoc3_pins_v1_10
 	PORT MAP(oe=>(tmpOE__P3_1_net_0),
 		y=>(zero),
 		fb=>(tmpFB_0__P3_1_net_0),
-		analog=>Net_32,
+		analog=>Net_101,
 		io=>(tmpIO_0__P3_1_net_0),
 		siovref=>(tmpSIOVREF__P3_1_net_0),
 		annotation=>Net_23,
@@ -382,22 +382,22 @@ AMux_1_CYAMUXSIDE_A:cy_psoc3_amux_v1_0
 	GENERIC MAP(cy_registers=>"",
 		muxin_width=>2,
 		hw_control=>'0',
-		one_active=>'0',
+		one_active=>'1',
 		init_mux_sel=>"00",
 		api_type=>0,
 		connect_mode=>1)
-	PORT MAP(muxin=>(Net_32, Net_25),
+	PORT MAP(muxin=>(Net_101, Net_25),
 		hw_ctrl_en=>(others => zero),
 		vout=>Net_1);
 AMux_1_CYAMUXSIDE_B:cy_psoc3_amux_v1_0
 	GENERIC MAP(cy_registers=>"",
 		muxin_width=>2,
 		hw_control=>'0',
-		one_active=>'0',
+		one_active=>'1',
 		init_mux_sel=>"00",
 		api_type=>0,
 		connect_mode=>1)
-	PORT MAP(muxin=>(Net_39, Net_32),
+	PORT MAP(muxin=>(Net_39, Net_101),
 		hw_ctrl_en=>(others => zero),
 		vout=>Net_2);
 P3_2:cy_psoc3_pins_v1_10

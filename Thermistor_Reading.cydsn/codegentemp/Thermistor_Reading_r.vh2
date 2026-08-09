@@ -1,5 +1,5 @@
 -- Project:   Thermistor_Reading
--- Generated: 08/09/2026 12:33:48
+-- Generated: 08/09/2026 13:55:35
 -- PSoC Creator  4.4
 
 ENTITY Thermistor_Reading IS
