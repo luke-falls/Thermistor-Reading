@@ -1,8 +1,7 @@
 /* ========================================
  *
  * PSoC Thermistor lab
- * Luke Falls 
- * 10/29/2023
+ *
  * ========================================
 */
 // The following setting must be made to use the math.h and float.h libraries

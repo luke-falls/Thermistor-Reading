@@ -1,0 +1,6 @@
+C:\Users\Lukef\OneDrive\Documents\PSoC Creator\Thermistor_Lab\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj|c0e05f50-d43b-428e-a995-6bcd020ee90d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|aaafcde9-71ee-412a-a12f-d935ecc9d573
+C:\Users\Lukef\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|34df2a59-eb66-47a1-8cd1-7929df270f12
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1e39d07f-921e-4193-9c7c-a9b4187533f8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f5567557-465d-4a64-836a-7105cc23dcdd
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0e36a220-aeaf-465e-9be4-faaca4423a8e
