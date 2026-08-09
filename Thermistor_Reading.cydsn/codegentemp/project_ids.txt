@@ -1,6 +1,7 @@
-C:\Users\Lukef\OneDrive\Documents\PSoC Creator\Thermistor_Lab\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj|c0e05f50-d43b-428e-a995-6bcd020ee90d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|aaafcde9-71ee-412a-a12f-d935ecc9d573
-C:\Users\Lukef\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|34df2a59-eb66-47a1-8cd1-7929df270f12
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1e39d07f-921e-4193-9c7c-a9b4187533f8
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f5567557-465d-4a64-836a-7105cc23dcdd
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0e36a220-aeaf-465e-9be4-faaca4423a8e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|782a2b11-b470-4ab6-85fc-98244ee425f8
+C:\Users\Lukef\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|9e225438-c646-49f4-b0ae-7c3aeccfafaa
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1a90d18b-4775-4706-b853-93e276d8a16b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d3fc5d5d-81c3-49e5-8967-07a35ecdadad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|53b214d0-e223-447d-8b10-1c29f58a569c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|973418e1-5a3c-418f-9899-169b24d59046
+C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\Thermistor_Reading.cyprj|98795c8d-3004-4454-b1b6-3ec938c4ecae
