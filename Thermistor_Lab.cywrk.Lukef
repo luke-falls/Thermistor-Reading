@@ -81,8 +81,6 @@
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1_PM.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_0.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_1.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_2.lst</v>
@@ -90,7 +88,6 @@
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_4.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_5.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_6.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout_1.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.elf</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.hex</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.map</v>
@@ -126,8 +123,6 @@
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Opamp_1_PM.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_0.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_1.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_2.lst</v>
@@ -135,7 +130,6 @@
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_4.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_5.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\P3_6.lst</v>
-<v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout_1.lst</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.elf</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.hex</v>
 <v>Thermistor_Lab\Thermistor_Reading\CortexM3\ARM_GCC_541\Debug\Thermistor_Reading.map</v>
@@ -163,7 +157,6 @@
 <v>Thermistor_Lab\Thermistor_Reading\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>Thermistor_Lab\Thermistor_Reading\Gnd_v1_0</v>
 <v>Thermistor_Lab\Thermistor_Reading\Gnd_v1_0\Gnd_v1_0.pdf</v>
-<v>Thermistor_Lab\Thermistor_Reading\OpAmp_v1_90.pdf</v>
 <v>Thermistor_Lab\Thermistor_Reading\Power_v1_0</v>
 <v>Thermistor_Lab\Thermistor_Reading\Power_v1_0\Power_v1_0.pdf</v>
 <v>Thermistor_Lab\Thermistor_Reading\Resistor_v1_0</v>

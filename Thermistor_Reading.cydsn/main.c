@@ -49,7 +49,7 @@ int main(void)
         LCD_write_counter++;
         
         // Use this digital output with a scope to determine the loop time
-        P3_5_Write(1);
+        //P3_5_Write(1);
         
         //******************** Select the mux input for the 10k resistor******************************//
         AMux_1_Select(0);
@@ -61,7 +61,7 @@ int main(void)
         ADC_DelSig_1_IsEndConversion(ADC_DelSig_1_WAIT_FOR_RESULT);
         
         // Conversion is complete so reset the I/O pin so I can see how long the conversion took with a scope
-        P3_5_Write(0);
+        //P3_5_Write(0);
         
         // Get the 16 bit result from the ADC result register
         R_1_result = ADC_DelSig_1_GetResult16();
@@ -115,16 +115,17 @@ int main(void)
         if(LCD_write_counter++ > 1000)
         {
             LCD_write_counter = 0;          // Reset the write counter
-            P3_6_Write(1);                  // Toggle bit 0 for monitoring LCD write time
+            //P3_6_Write(1);                  // Toggle bit 0 for monitoring LCD write time
             LCD_IsReady();                  // Built in function from the LCD API
             
             LCD_Position(0,0);              // Move to the first line
-            LCD_PrintString("      degrees C ");
+            LCD_PrintString("              V ");
             LCD_Position(0,0);              // Move back to the first character
-            LCD_PrintNumber(temperature/100);   // Print the whole number portion
-            LCD_Position(0,2);              // Move to the fourth position since the temperature takes up 3 digits
-            LCD_PrintString(".");
-            LCD_PrintNumber(temperature % 100); // Get the decimal portion of the temperature
+            //LCD_PrintNumber(temperature/100);   // Print the whole number portion
+            LCD_PrintNumber(R_1_mv);   // Print the whole number portion
+            //LCD_Position(0,2);              // Move to the fourth position since the temperature takes up 3 digits
+            //LCD_PrintString(".");
+            //LCD_PrintNumber(temperature % 100); // Get the decimal portion of the temperature
             
             //LCD_Position(0,0);              // Move to the first line
             //LCD_PrintString("loop cnt:       ");    // Set up to display the loop count

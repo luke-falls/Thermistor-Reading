@@ -50,12 +50,6 @@
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\P3_6_aliases.h" value="HEADER;;;;;P3_6" />
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\P3_6.c" value="SOURCE_C;CortexM3;;;;P3_6" />
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\P3_6.h" value="HEADER;;;;;P3_6" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Opamp_1.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Opamp_1.h" value="HEADER;;;;;Opamp_1" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Opamp_1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Vout_1_aliases.h" value="HEADER;;;;;Vout_1" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Vout_1.c" value="SOURCE_C;CortexM3;;;;Vout_1" />
-  <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\Vout_1.h" value="HEADER;;;;;Vout_1" />
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\ADC_DelSig_1_Ext_CP_Clk.c" value="SOURCE_C;CortexM3;;;;ADC_DelSig_1_Ext_CP_Clk" />
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\ADC_DelSig_1_Ext_CP_Clk.h" value="HEADER;;;;;ADC_DelSig_1_Ext_CP_Clk" />
   <file name="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\codegentemp\ADC_DelSig_1_IRQ.c" value="SOURCE_C;CortexM3;;;;ADC_DelSig_1_IRQ" />

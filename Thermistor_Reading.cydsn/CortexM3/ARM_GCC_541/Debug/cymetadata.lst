@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
   55 001a 01       		.byte	1
   56 001b 40       		.byte	64
   57 001c 03       		.byte	3
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 2
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 2
 
 
   58 001d 46       		.byte	70
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  112 0053 01       		.byte	1
  113 0054 EC       		.byte	-20
  114 0055 08       		.byte	8
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 3
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 3
 
 
  115 0056 25       		.byte	37
@@ -151,15 +151,15 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  142 0071 00       		.byte	0
  143 0072 00       		.byte	0
  144 0073 00       		.byte	0
- 145 0074 60       		.byte	96
+ 145 0074 00       		.byte	0
  146 0075 00       		.byte	0
  147 0076 00       		.byte	0
  148 0077 00       		.byte	0
  149 0078 00       		.byte	0
  150 0079 00       		.byte	0
- 151 007a 9F       		.byte	-97
+ 151 007a 7F       		.byte	127
  152 007b 00       		.byte	0
- 153 007c 08       		.byte	8
+ 153 007c BB       		.byte	-69
  154 007d 00       		.byte	0
  155 007e 18       		.byte	24
  156 007f 01       		.byte	1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  169              		.size	cy_meta_custnvl, 4
  170              	cy_meta_custnvl:
  171 0000 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 4
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 4
 
 
  172 0001 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  222 002a 1D       		.byte	0x1d
  223 002b 2F000000 		.4byte	0x2f
  224 002f 02       		.uleb128 0x2
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 5
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 5
 
 
  225 0030 01       		.byte	0x1
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  279 0096 FE000000 		.4byte	.LASF12
  280 009a 03       		.byte	0x3
  281 009b 1F       		.byte	0x1f
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 6
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 6
 
 
  282 009c A6000000 		.4byte	0xa6
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  336 0117 89000000 		.4byte	0x89
  337 011b 0B       		.byte	0xb
  338 011c 00       		.byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 7
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 7
 
 
  339 011d 08       		.uleb128 0x8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  393 0029 00       		.byte	0
  394 002a 0B       		.uleb128 0xb
  395 002b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 8
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 8
 
 
  396 002c 3E       		.uleb128 0x3e
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  450 000b 00       		.byte	0
  451 000c 0000     		.2byte	0
  452 000e 0000     		.2byte	0
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 9
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 9
 
 
  453 0010 00000000 		.4byte	0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  473      65642069 
  473      6E7400
  474              	.LASF13:
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 10
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 10
 
 
  475 00ee 63795F6D 		.ascii	"cy_meta_custnvl\000"
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 1
  496 01b7 6C6F6E67 		.ascii	"long int\000"
  496      20696E74 
  496      00
-ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccZjiBHz.s 			page 11
+ARM GAS  C:\Users\Lukef\AppData\Local\Temp\ccaBrwOj.s 			page 11
 
 
  497              	.LASF0:

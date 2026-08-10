@@ -298,10 +298,10 @@ static void AnalogSetDefault(void)
 	CY_SET_XTND_REG8((void CYFAR *)(CYREG_BG_DFT0), (bg_xover_inl_trim & 0x07u));
 	CY_SET_XTND_REG8((void CYFAR *)(CYREG_BG_DFT1), ((bg_xover_inl_trim >> 4) & 0x0Fu));
 	CY_SET_XTND_REG8((void CYFAR *)CYREG_PRT3_AG, 0x18u);
-	CY_SET_XTND_REG8((void CYFAR *)CYREG_DAC2_SW0, 0x30u);
-	CY_SET_XTND_REG8((void CYFAR *)CYREG_DSM0_SW0, 0x80u);
-	CY_SET_XTND_REG8((void CYFAR *)CYREG_DSM0_SW4, 0x20u);
-	CY_SET_XTND_REG8((void CYFAR *)CYREG_BUS_SW0, 0xD0u);
+	CY_SET_XTND_REG8((void CYFAR *)CYREG_CMP0_SW0, 0x18u);
+	CY_SET_XTND_REG8((void CYFAR *)CYREG_DSM0_SW0, 0xA0u);
+	CY_SET_XTND_REG8((void CYFAR *)CYREG_DSM0_SW4, 0x08u);
+	CY_SET_XTND_REG8((void CYFAR *)CYREG_BUS_SW0, 0xF0u);
 	CY_SET_XTND_REG8((void CYFAR *)CYREG_PUMP_CR0, 0x44u);
 }
 
@@ -341,16 +341,18 @@ void SetAnalogRoutingPumps(uint8 enabled)
 #define CY_AMUX_UNUSED CYREG_BOOST_SR
 /* This is an implementation detail of the AMux. Code that depends on it may be
    incompatible with other versions of PSoC Creator. */
-uint8 CYXDATA * const CYCODE AMux_1_CYAMUXSIDE_A__addrTable[4] = {
+uint8 CYXDATA * const CYCODE AMux_1_CYAMUXSIDE_A__addrTable[6] = {
 	(uint8 CYXDATA *)CYREG_PRT3_AG, (uint8 CYXDATA *)CYREG_DSM0_SW0, 
-	(uint8 CYXDATA *)CYREG_PRT3_AMUX, (uint8 CYXDATA *)CY_AMUX_UNUSED, 
+	(uint8 CYXDATA *)CYREG_PRT3_AG, (uint8 CYXDATA *)CY_AMUX_UNUSED, 
+	(uint8 CYXDATA *)CYREG_PRT3_AG, (uint8 CYXDATA *)CY_AMUX_UNUSED, 
 };
 
 /* This is an implementation detail of the AMux. Code that depends on it may be
    incompatible with other versions of PSoC Creator. */
-const uint8 CYCODE AMux_1_CYAMUXSIDE_A__maskTable[4] = {
+const uint8 CYCODE AMux_1_CYAMUXSIDE_A__maskTable[6] = {
 	0x04u, 0x40u, 
-	0x0Au, 0x00u, 
+	0x02u, 0x00u, 
+	0x20u, 0x00u, 
 };
 
 /*******************************************************************************
@@ -368,7 +370,7 @@ const uint8 CYCODE AMux_1_CYAMUXSIDE_A__maskTable[4] = {
 *******************************************************************************/
 void AMux_1_CYAMUXSIDE_A_Set(uint8 channel)
 {
-	if (channel < 2)
+	if (channel < 3)
 	{
 		channel += channel;
 		*AMux_1_CYAMUXSIDE_A__addrTable[channel] |= AMux_1_CYAMUXSIDE_A__maskTable[channel];
@@ -393,7 +395,7 @@ void AMux_1_CYAMUXSIDE_A_Set(uint8 channel)
 *******************************************************************************/
 void AMux_1_CYAMUXSIDE_A_Unset(uint8 channel)
 {
-	if (channel < 2)
+	if (channel < 3)
 	{
 		channel += channel;
 		*AMux_1_CYAMUXSIDE_A__addrTable[channel] &= (uint8)~AMux_1_CYAMUXSIDE_A__maskTable[channel];
@@ -404,16 +406,18 @@ void AMux_1_CYAMUXSIDE_A_Unset(uint8 channel)
 
 /* This is an implementation detail of the AMux. Code that depends on it may be
    incompatible with other versions of PSoC Creator. */
-uint8 CYXDATA * const CYCODE AMux_1_CYAMUXSIDE_B__addrTable[4] = {
-	(uint8 CYXDATA *)CYREG_PRT3_AG, (uint8 CYXDATA *)CYREG_BUS_SW0, 
+uint8 CYXDATA * const CYCODE AMux_1_CYAMUXSIDE_B__addrTable[6] = {
+	(uint8 CYXDATA *)CYREG_DAC3_SW3, (uint8 CYXDATA *)CYREG_DAC3_SW4, 
 	(uint8 CYXDATA *)CYREG_PRT3_AG, (uint8 CYXDATA *)CY_AMUX_UNUSED, 
+	(uint8 CYXDATA *)CYREG_PRT3_AMUX, (uint8 CYXDATA *)CY_AMUX_UNUSED, 
 };
 
 /* This is an implementation detail of the AMux. Code that depends on it may be
    incompatible with other versions of PSoC Creator. */
-const uint8 CYCODE AMux_1_CYAMUXSIDE_B__maskTable[4] = {
-	0x02u, 0x20u, 
+const uint8 CYCODE AMux_1_CYAMUXSIDE_B__maskTable[6] = {
+	0x80u, 0x10u, 
 	0x01u, 0x00u, 
+	0x50u, 0x00u, 
 };
 
 /*******************************************************************************
@@ -431,7 +435,7 @@ const uint8 CYCODE AMux_1_CYAMUXSIDE_B__maskTable[4] = {
 *******************************************************************************/
 void AMux_1_CYAMUXSIDE_B_Set(uint8 channel)
 {
-	if (channel < 2)
+	if (channel < 3)
 	{
 		channel += channel;
 		*AMux_1_CYAMUXSIDE_B__addrTable[channel] |= AMux_1_CYAMUXSIDE_B__maskTable[channel];
@@ -456,7 +460,7 @@ void AMux_1_CYAMUXSIDE_B_Set(uint8 channel)
 *******************************************************************************/
 void AMux_1_CYAMUXSIDE_B_Unset(uint8 channel)
 {
-	if (channel < 2)
+	if (channel < 3)
 	{
 		channel += channel;
 		*AMux_1_CYAMUXSIDE_B__addrTable[channel] &= (uint8)~AMux_1_CYAMUXSIDE_B__maskTable[channel];

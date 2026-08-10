@@ -320,54 +320,7 @@
 #define P3_6__SHIFT 6u
 #define P3_6__SLW CYREG_PRT3_SLW
 
-/* Vout_1 */
-#define Vout_1__0__INTTYPE CYREG_PICU3_INTTYPE7
-#define Vout_1__0__MASK 0x80u
-#define Vout_1__0__PC CYREG_PRT3_PC7
-#define Vout_1__0__PORT 3u
-#define Vout_1__0__SHIFT 7u
-#define Vout_1__AG CYREG_PRT3_AG
-#define Vout_1__AMUX CYREG_PRT3_AMUX
-#define Vout_1__BIE CYREG_PRT3_BIE
-#define Vout_1__BIT_MASK CYREG_PRT3_BIT_MASK
-#define Vout_1__BYP CYREG_PRT3_BYP
-#define Vout_1__CTL CYREG_PRT3_CTL
-#define Vout_1__DM0 CYREG_PRT3_DM0
-#define Vout_1__DM1 CYREG_PRT3_DM1
-#define Vout_1__DM2 CYREG_PRT3_DM2
-#define Vout_1__DR CYREG_PRT3_DR
-#define Vout_1__INP_DIS CYREG_PRT3_INP_DIS
-#define Vout_1__INTTYPE_BASE CYDEV_PICU_INTTYPE_PICU3_BASE
-#define Vout_1__LCD_COM_SEG CYREG_PRT3_LCD_COM_SEG
-#define Vout_1__LCD_EN CYREG_PRT3_LCD_EN
-#define Vout_1__MASK 0x80u
-#define Vout_1__PORT 3u
-#define Vout_1__PRT CYREG_PRT3_PRT
-#define Vout_1__PRTDSI__CAPS_SEL CYREG_PRT3_CAPS_SEL
-#define Vout_1__PRTDSI__DBL_SYNC_IN CYREG_PRT3_DBL_SYNC_IN
-#define Vout_1__PRTDSI__OE_SEL0 CYREG_PRT3_OE_SEL0
-#define Vout_1__PRTDSI__OE_SEL1 CYREG_PRT3_OE_SEL1
-#define Vout_1__PRTDSI__OUT_SEL0 CYREG_PRT3_OUT_SEL0
-#define Vout_1__PRTDSI__OUT_SEL1 CYREG_PRT3_OUT_SEL1
-#define Vout_1__PRTDSI__SYNC_OUT CYREG_PRT3_SYNC_OUT
-#define Vout_1__PS CYREG_PRT3_PS
-#define Vout_1__SHIFT 7u
-#define Vout_1__SLW CYREG_PRT3_SLW
-
-/* Opamp_1 */
-#define Opamp_1_ABuf__CR CYREG_OPAMP3_CR
-#define Opamp_1_ABuf__MX CYREG_OPAMP3_MX
-#define Opamp_1_ABuf__NPUMP_OPAMP_TR0 CYREG_NPUMP_OPAMP_TR0
-#define Opamp_1_ABuf__PM_ACT_CFG CYREG_PM_ACT_CFG4
-#define Opamp_1_ABuf__PM_ACT_MSK 0x08u
-#define Opamp_1_ABuf__PM_STBY_CFG CYREG_PM_STBY_CFG4
-#define Opamp_1_ABuf__PM_STBY_MSK 0x08u
-#define Opamp_1_ABuf__RSVD CYREG_OPAMP3_RSVD
-#define Opamp_1_ABuf__SW CYREG_OPAMP3_SW
-#define Opamp_1_ABuf__TR0 CYREG_OPAMP3_TR0
-#define Opamp_1_ABuf__TR1 CYREG_OPAMP3_TR1
-
-/* ADC_DelSig_1 */
+/* ADC_DelSig_1_DEC */
 #define ADC_DelSig_1_DEC__COHER CYREG_DEC_COHER
 #define ADC_DelSig_1_DEC__CR CYREG_DEC_CR
 #define ADC_DelSig_1_DEC__DR1 CYREG_DEC_DR1
@@ -398,6 +351,8 @@
 #define ADC_DelSig_1_DEC__TRIM__M6 CYREG_FLSHID_CUST_TABLES_DEC_M6
 #define ADC_DelSig_1_DEC__TRIM__M7 CYREG_FLSHID_CUST_TABLES_DEC_M7
 #define ADC_DelSig_1_DEC__TRIM__M8 CYREG_FLSHID_CUST_TABLES_DEC_M8
+
+/* ADC_DelSig_1_DSM */
 #define ADC_DelSig_1_DSM__BUF0 CYREG_DSM0_BUF0
 #define ADC_DelSig_1_DSM__BUF1 CYREG_DSM0_BUF1
 #define ADC_DelSig_1_DSM__BUF2 CYREG_DSM0_BUF2
@@ -439,6 +394,8 @@
 #define ADC_DelSig_1_DSM__TR0 CYREG_NPUMP_DSM_TR0
 #define ADC_DelSig_1_DSM__TST0 CYREG_DSM0_TST0
 #define ADC_DelSig_1_DSM__TST1 CYREG_DSM0_TST1
+
+/* ADC_DelSig_1_Ext_CP_Clk */
 #define ADC_DelSig_1_Ext_CP_Clk__CFG0 CYREG_CLKDIST_DCFG0_CFG0
 #define ADC_DelSig_1_Ext_CP_Clk__CFG1 CYREG_CLKDIST_DCFG0_CFG1
 #define ADC_DelSig_1_Ext_CP_Clk__CFG2 CYREG_CLKDIST_DCFG0_CFG2
@@ -448,6 +405,8 @@
 #define ADC_DelSig_1_Ext_CP_Clk__PM_ACT_MSK 0x01u
 #define ADC_DelSig_1_Ext_CP_Clk__PM_STBY_CFG CYREG_PM_STBY_CFG2
 #define ADC_DelSig_1_Ext_CP_Clk__PM_STBY_MSK 0x01u
+
+/* Miscellaneous */
 #define ADC_DelSig_1_IRQ__INTC_CLR_EN_REG CYREG_NVIC_CLRENA0
 #define ADC_DelSig_1_IRQ__INTC_CLR_PD_REG CYREG_NVIC_CLRPEND0
 #define ADC_DelSig_1_IRQ__INTC_MASK 0x20000000u
@@ -467,8 +426,6 @@
 #define ADC_DelSig_1_theACLK__PM_ACT_MSK 0x01u
 #define ADC_DelSig_1_theACLK__PM_STBY_CFG CYREG_PM_STBY_CFG1
 #define ADC_DelSig_1_theACLK__PM_STBY_MSK 0x01u
-
-/* Miscellaneous */
 #define BCLK__BUS_CLK__HZ 24000000U
 #define BCLK__BUS_CLK__KHZ 24000U
 #define BCLK__BUS_CLK__MHZ 24U

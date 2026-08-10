@@ -132,12 +132,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P3_6_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P3_6.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P3_6.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\Lukef\OneDrive\Documents\Thermistor-Reading\Thermistor_Reading.cydsn\Export\ARM_GCC_Generic">
